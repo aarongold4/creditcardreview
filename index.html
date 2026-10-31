@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="2ED6cbR1gU8YikTLoWQKzX7TO7M1k-x7F8qiQLBcpDE" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit Card Review — Honest, Independent Credit Card Reviews</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1a3a5c;
+    --navy-dark: #0f2238;
+    --navy-light: #234d7a;
+    --green: #2ecc71;
+    --green-dark: #27ae60;
+    --white: #ffffff;
+    --off-white: #f8f9fa;
+    --light-gray: #f1f3f5;
+    --mid-gray: #6c757d;
+    --dark-gray: #343a40;
+    --text: #212529;
+    --border: #dee2e6;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Lato', sans-serif;
+    color: var(--text);
+    background: var(--white);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--navy);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.15);
+  }
+
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+  }
+
+  .logo {
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: -0.02em;
+  }
+
+  .logo span { color: var(--green); }
+
+  nav { display: flex; align-items: center; gap: 2rem; }
+
+  nav a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+
+  nav a:hover { color: var(--green); }
+
+  .nav-cta {
+    background: var(--green);
+    color: var(--navy) !important;
+    padding: 0.5rem 1.25rem;
+    border-radius: 4px;
+    font-weight: 700 !important;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover { background: var(--green-dark) !important; color: var(--white) !important; }
+
+  /* ── HERO ── */
+  .hero {
+    background: #1a3a5c;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+
+  .hero::before, .hero::after { content: none; display: none; }
+
+  .hero-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 1.5rem;
+  }
+
+  .hero h1 {
+    font-family: 'Source Serif 4', serif;
+    font-size: clamp(1.8rem, 3.5vw, 3rem);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.15;
+    margin-bottom: 1.25rem;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+  }
+
+  .hero p {
+    font-size: 1.15rem;
+    color: rgba(255,255,255,0.8);
+    max-width: 580px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.7;
+  }
+
+  .hero-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+  .btn-primary {
+    background: var(--green);
+    color: var(--navy);
+    padding: 0.875rem 2rem;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    letter-spacing: 0.02em;
+  }
+
+  .btn-primary:hover { background: var(--green-dark); color: var(--white); transform: translateY(-1px); box-shadow: 0 4px 15px rgba(46,204,113,0.3); }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--white);
+    padding: 0.875rem 2rem;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border: 2px solid rgba(255,255,255,0.4);
+    transition: all 0.2s;
+  }
+
+  .btn-secondary:hover { border-color: var(--white); background: rgba(255,255,255,0.1); }
+
+  /* ── TRUST BAR ── */
+  .trust-bar {
+    background: var(--navy-dark);
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+
+  .trust-bar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .trust-item svg { color: var(--green); flex-shrink: 0; }
+
+  /* ── SECTION COMMONS ── */
+  section { padding: 5rem 2rem; }
+  .section-inner { max-width: 1200px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title {
+    font-family: 'Source Serif 4', serif;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 1rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.05rem;
+    color: var(--mid-gray);
+    max-width: 580px;
+    line-height: 1.7;
+  }
+
+  /* ── CATEGORIES ── */
+  .categories { background: var(--white); }
+
+  .categories-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.25rem;
+  }
+
+  .category-card {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 1.75rem;
+    text-decoration: none;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .category-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--green);
+    transform: scaleX(0);
+    transition: transform 0.25s;
+    transform-origin: left;
+  }
+
+  .category-card:hover { border-color: var(--navy); transform: translateY(-3px); box-shadow: 0 8px 30px rgba(26,58,92,0.1); }
+  .category-card:hover::before { transform: scaleX(1); }
+
+  .category-icon {
+    width: 120px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: 6px;
+  }
+  .category-icon img {
+    width: 120px;
+    height: 76px;
+    object-fit: contain;
+  }
+
+  .category-card h3 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 0.5rem;
+  }
+
+  .category-card p {
+    font-size: 0.875rem;
+    color: var(--mid-gray);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .category-link {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  /* ── TOP PICKS ── */
+  .top-picks { background: var(--light-gray); }
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .card-review {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.25s;
+  }
+
+  .card-review:hover { box-shadow: 0 10px 40px rgba(26,58,92,0.12); transform: translateY(-2px); }
+
+  .card-review-header {
+    background: var(--navy);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card-image {
+    width: 100px;
+    height: 63px;
+    border-radius: 6px;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-image img {
+    width: 100px;
+    height: 63px;
+    object-fit: contain;
+  }
+
+  .card-review-title h3 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.3;
+    margin-bottom: 0.25rem;
+  }
+
+  .stars { color: #f1c40f; font-size: 0.8rem; letter-spacing: 0.05em; }
+
+  .card-review-body { padding: 1.5rem; }
+
+  .card-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .stat-item { }
+
+  .stat-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--mid-gray);
+    margin-bottom: 0.2rem;
+  }
+
+  .stat-value {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy);
+  }
+
+  .card-best-for {
+    background: rgba(46,204,113,0.08);
+    border: 1px solid rgba(46,204,113,0.2);
+    border-radius: 4px;
+    padding: 0.6rem 0.875rem;
+    font-size: 0.8rem;
+    color: var(--green-dark);
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+  }
+
+  .card-best-for span { color: var(--mid-gray); font-weight: 400; }
+
+  .btn-apply {
+    display: block;
+    background: var(--green);
+    color: var(--navy);
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    letter-spacing: 0.02em;
+  }
+
+  .btn-apply:hover { background: var(--green-dark); color: var(--white); }
+
+  .affiliate-note {
+    font-size: 0.7rem;
+    color: var(--mid-gray);
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  /* ── HOW WE RATE ── */
+  .how-we-rate { background: var(--navy); }
+
+  .how-we-rate .section-title { color: var(--white); }
+  .how-we-rate .section-subtitle { color: rgba(255,255,255,0.7); }
+
+  .rating-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .rating-item { text-align: center; }
+
+  .rating-number {
+    font-family: 'Source Serif 4', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--green);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .rating-item h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.02em;
+  }
+
+  .rating-item p {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.5;
+  }
+
+  /* ── LATEST ARTICLES ── */
+  .latest { background: var(--white); }
+
+  .articles-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .view-all {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--green);
+    padding-bottom: 2px;
+    transition: color 0.2s;
+  }
+
+  .view-all:hover { color: var(--green-dark); }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .article-card { text-decoration: none; }
+
+  .article-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+    position: relative;
+    background: var(--navy);
+  }
+  .article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .article-card:hover .article-image { transform: scale(1.02); }
+
+  .article-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green-dark);
+    background: rgba(46,204,113,0.1);
+    padding: 0.25rem 0.625rem;
+    border-radius: 3px;
+    margin-bottom: 0.625rem;
+  }
+
+  .article-card h3 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    transition: color 0.2s;
+  }
+
+  .article-card:hover h3 { color: var(--green-dark); }
+
+  .article-card p {
+    font-size: 0.875rem;
+    color: var(--mid-gray);
+    line-height: 1.6;
+  }
+
+  /* ── NEWSLETTER ── */
+  .newsletter {
+    background: linear-gradient(135deg, var(--navy-dark), var(--navy));
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .newsletter h2 {
+    font-family: 'Source Serif 4', serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 0.75rem;
+  }
+
+  .newsletter p {
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  .newsletter-form {
+    display: flex;
+    gap: 0.75rem;
+    max-width: 480px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .newsletter-form input {
+    flex: 1;
+    min-width: 240px;
+    padding: 0.875rem 1.25rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+  }
+
+  .newsletter-form button {
+    background: var(--green);
+    color: var(--navy);
+    padding: 0.875rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.2s;
+    letter-spacing: 0.02em;
+  }
+
+  .newsletter-form button:hover { background: var(--green-dark); color: var(--white); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--navy-dark);
+    padding: 3rem 2rem 1.5rem;
+  }
+
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-brand .logo { font-size: 1.2rem; display: block; margin-bottom: 1rem; }
+
+  .footer-brand p {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.7;
+    max-width: 280px;
+  }
+
+  .footer-col h4 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 1rem;
+  }
+
+  .footer-col a {
+    display: block;
+    font-size: 0.875rem;
+    color: rgba(255,255,255,0.65);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: color 0.2s;
+  }
+
+  .footer-col a:hover { color: var(--green); }
+
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.35);
+  }
+
+  .footer-bottom a { color: rgba(255,255,255,0.5); text-decoration: none; }
+  .footer-bottom a:hover { color: var(--green); }
+
+  .disclosure {
+    background: rgba(0,0,0,0.2);
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.4);
+    line-height: 1.6;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    .footer-top { grid-template-columns: 1fr 1fr; }
+    .header-inner nav { display: none; }
+    .categories-header { flex-direction: column; align-items: flex-start; }
+    .articles-header { flex-direction: column; align-items: flex-start; }
+  }
+
+  @media (max-width: 480px) {
+    .footer-top { grid-template-columns: 1fr; }
+    .hero { padding: 4rem 1.5rem; }
+  }
+
+  /* ===== FOOTER ===== */
+  footer { background: #f8f9fa; border-top: 2px solid var(--border); margin-top: 4rem; }
+  .footer-inner { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem 1.5rem; }
+  .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 2rem; margin-bottom: 2.5rem; }
+  .footer-logo { font-family: 'Source Serif 4', serif; font-size: 1.1rem; font-weight: 700; color: var(--navy); text-decoration: none; display: block; margin-bottom: 0.75rem; }
+  .footer-logo span { color: var(--green-dark); }
+  .footer-brand p { font-size: 0.82rem; color: var(--mid-gray); line-height: 1.6; }
+  .footer-col h4 { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--navy); margin-bottom: 0.875rem; }
+  .footer-col a { display: block; font-size: 0.82rem; color: #555; text-decoration: none; margin-bottom: 0.45rem; line-height: 1.4; transition: color 0.2s; }
+  .footer-col a:hover { color: var(--navy); }
+  .footer-bottom { border-top: 1px solid var(--border); padding-top: 1.25rem; }
+  .footer-bottom p { font-size: 0.78rem; color: var(--mid-gray); line-height: 1.6; margin-bottom: 0.4rem; }
+  .footer-bottom a { color: var(--navy); text-decoration: underline; }
+  .footer-bottom a:hover { color: var(--green-dark); }
+  @media (max-width: 1000px) { .footer-top { grid-template-columns: 1fr 1fr 1fr; } .footer-brand { grid-column: 1 / -1; } }
+  @media (max-width: 640px) { .footer-top { grid-template-columns: 1fr 1fr; } }
+
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-427FXEETBZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-427FXEETBZ');
+</script>
+
+<link rel="canonical" href="https://www.creditcardreview.org/">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <a href="#" class="logo">Credit Card <span>Review</span>.org</a>
+                        <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="articles.html">Articles</a>
+      <a href="best-travel-credit-cards-2026.html">Travel</a>
+      <a href="best-cash-back-credit-cards-2026.html">Cash Back</a>
+      <a href="best-business-credit-cards-2026.html">Business</a>
+      <a href="index.html#top-picks" class="nav-cta">Top Picks</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Independent • Unbiased • Trusted</div>
+    <h1>Find the Best Credit Card for You</h1>
+    <p>Honest reviews and expert comparisons to help you choose the right card and maximize your rewards.</p>
+    <div class="hero-buttons">
+      <a href="#categories" class="btn-secondary">Browse by Category</a>
+      <a href="#top-picks" class="btn-primary">See Our Top Picks</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      No sponsored rankings
+    </div>
+    <div class="trust-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      Updated monthly
+    </div>
+    <div class="trust-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      100+ cards reviewed
+    </div>
+    <div class="trust-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      Expert analysis
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section class="categories" id="categories">
+  <div class="section-inner">
+    <div class="categories-header">
+      <div>
+        <div class="section-label">Browse by Category</div>
+        <h2 class="section-title">Find the Right Card<br>for Your Needs</h2>
+        <p class="section-subtitle">Browse our expert reviews across every major credit card category.</p>
+      </div>
+    </div>
+    <div class="categories-grid">
+      <a href="best-travel-credit-cards-2026.html" class="category-card">
+        <div class="category-icon"><img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Sapphire Preferred"></div>
+        <h3>Travel Credit Cards</h3>
+        <p>Earn miles, points and travel perks. Find the best cards for flights, hotels and airport lounge access.</p>
+        <div class="category-link">See Travel Cards →</div>
+      </a>
+      <a href="best-cash-back-credit-cards-2026.html" class="category-card">
+        <div class="category-icon"><img src="Citi%20Double%20Cash.jpg" alt="Citi Double Cash"></div>
+        <h3>Cash Back Credit Cards</h3>
+        <p>Earn real money back on every purchase. Find the best flat-rate and category cash back cards.</p>
+        <div class="category-link">See Cash Back Cards →</div>
+      </a>
+      <a href="best-business-credit-cards-2026.html" class="category-card">
+        <div class="category-icon"><img src="Capitol%20One%20Venture%20X%20Rewards.avif" alt="Capital One Venture X"></div>
+        <h3>Business Credit Cards</h3>
+        <p>Maximize rewards and manage expenses for your business with dedicated business card reviews.</p>
+        <div class="category-link">See Business Cards →</div>
+      </a>
+      <a href="best-no-annual-fee-credit-cards-2026.html" class="category-card">
+        <div class="category-icon"><img src="Capitol%20One%20Venture%20Rewards.avif" alt="Capital One Venture Rewards"></div>
+        <h3>No Annual Fee Cards</h3>
+        <p>Great rewards with no yearly cost. The best cards with zero annual fees reviewed and ranked.</p>
+        <div class="category-link">See No-Fee Cards →</div>
+      </a>
+      <a href="best-credit-cards-for-beginners-2026.html" class="category-card">
+        <div class="category-icon"><img src="Capitol%20One%20Platinum.avif" alt="Capital One Platinum"></div>
+        <h3>Cards for Bad Credit</h3>
+        <p>Rebuild your credit score with secured and starter credit cards reviewed by our experts.</p>
+        <div class="category-link">See Credit Builder Cards →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TOP PICKS -->
+<section class="top-picks" id="top-picks">
+  <div class="section-inner">
+    <div class="section-label">Editor's Picks</div>
+    <h2 class="section-title">Our Top Credit Cards for 2026</h2>
+    <p class="section-subtitle">Independently reviewed and ranked based on rewards, fees, benefits and overall value.</p>
+    <div class="cards-grid">
+
+      <div class="card-review">
+        <div class="card-review-header">
+          <div class="card-image"><img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Sapphire Preferred"></div>
+          <div class="card-review-title">
+            <h3>Chase Sapphire Preferred® Card</h3>
+            <div class="stars">★★★★★ <span style="color:rgba(255,255,255,0.5);font-size:0.75rem;">4.9/5</span></div>
+          </div>
+        </div>
+        <div class="card-review-body">
+          <div class="card-stats">
+            <div class="stat-item">
+              <div class="stat-label">Sign-Up Bonus</div>
+              <div class="stat-value">60,000 points</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Annual Fee</div>
+              <div class="stat-value">$95</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Rewards Rate</div>
+              <div class="stat-value">Up to 5x points</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Intro APR</div>
+              <div class="stat-value">N/A</div>
+            </div>
+          </div>
+          <div class="card-best-for">Best for: <span>Travel rewards & dining</span></div>
+          <a href="#" class="btn-apply">Apply Now →</a>
+          <a href="chase-sapphire-preferred-review-2026.html" style="display:block;text-align:center;margin-top:.5rem;font-size:.82rem;color:var(--navy);font-weight:700;text-decoration:none;">Read Our Full Review →</a>
+          <p class="affiliate-note">† Affiliate link — we may earn a commission</p>
+        </div>
+      </div>
+
+      <div class="card-review">
+        <div class="card-review-header">
+          <div class="card-image"><img src="Amex%20Express%20Gold%20Card.avif" alt="American Express Gold Card"></div>
+          <div class="card-review-title">
+            <h3>American Express® Gold Card</h3>
+            <div class="stars">★★★★★ <span style="color:rgba(255,255,255,0.5);font-size:0.75rem;">4.8/5</span></div>
+          </div>
+        </div>
+        <div class="card-review-body">
+          <div class="card-stats">
+            <div class="stat-item">
+              <div class="stat-label">Welcome Offer</div>
+              <div class="stat-value">60,000 points</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Annual Fee</div>
+              <div class="stat-value">$325</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Rewards Rate</div>
+              <div class="stat-value">Up to 4x points</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Dining Credit</div>
+              <div class="stat-value">$120/year</div>
+            </div>
+          </div>
+          <div class="card-best-for">Best for: <span>Dining & groceries</span></div>
+          <a href="#" class="btn-apply">Apply Now →</a>
+          <a href="amex-gold-card-review-2026.html" style="display:block;text-align:center;margin-top:.5rem;font-size:.82rem;color:var(--navy);font-weight:700;text-decoration:none;">Read Our Full Review →</a>
+          <p class="affiliate-note">† Affiliate link — we may earn a commission</p>
+        </div>
+      </div>
+
+      <div class="card-review">
+        <div class="card-review-header">
+          <div class="card-image"><img src="Capitol%20One%20Venture%20X%20Rewards.avif" alt="Capital One Venture X"></div>
+          <div class="card-review-title">
+            <h3>Capital One Venture X Rewards</h3>
+            <div class="stars">★★★★★ <span style="color:rgba(255,255,255,0.5);font-size:0.75rem;">4.8/5</span></div>
+          </div>
+        </div>
+        <div class="card-review-body">
+          <div class="card-stats">
+            <div class="stat-item">
+              <div class="stat-label">Sign-Up Bonus</div>
+              <div class="stat-value">75,000 miles</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Annual Fee</div>
+              <div class="stat-value">$395</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Rewards Rate</div>
+              <div class="stat-value">Up to 10x miles</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Travel Credit</div>
+              <div class="stat-value">$300/year</div>
+            </div>
+          </div>
+          <div class="card-best-for">Best for: <span>Premium travel benefits</span></div>
+          <a href="#" class="btn-apply">Apply Now →</a>
+          <a href="capital-one-venture-x-review-2026.html" style="display:block;text-align:center;margin-top:.5rem;font-size:.82rem;color:var(--navy);font-weight:700;text-decoration:none;">Read Our Full Review →</a>
+          <p class="affiliate-note">† Affiliate link — we may earn a commission</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HOW WE RATE -->
+<section class="how-we-rate">
+  <div class="section-inner">
+    <div class="section-label" style="color:var(--green)">Our Methodology</div>
+    <h2 class="section-title">How We Rate Credit Cards</h2>
+    <p class="section-subtitle">Every card is evaluated using the same independent criteria. No card pays to be featured.</p>
+    <div class="rating-grid">
+      <div class="rating-item">
+        <div class="rating-number">40%</div>
+        <h4>Rewards Value</h4>
+        <p>Earn rates, redemption options, and real-world value of points and miles</p>
+      </div>
+      <div class="rating-item">
+        <div class="rating-number">25%</div>
+        <h4>Fees & APR</h4>
+        <p>Annual fees, interest rates, foreign transaction fees, and penalty APRs</p>
+      </div>
+      <div class="rating-item">
+        <div class="rating-number">20%</div>
+        <h4>Benefits</h4>
+        <p>Travel protections, purchase coverage, airport lounge access, and perks</p>
+      </div>
+      <div class="rating-item">
+        <div class="rating-number">15%</div>
+        <h4>Accessibility</h4>
+        <p>Credit score requirements, application process, and customer service</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LATEST ARTICLES -->
+<section class="latest">
+  <div class="section-inner">
+    <div class="articles-header">
+      <div>
+        <div class="section-label">Latest Guides</div>
+        <h2 class="section-title">Expert Credit Card Guides</h2>
+      </div>
+      <a href="articles.html" class="view-all">View All Articles</a>
+    </div>
+    <div class="articles-grid">
+      <a href="best-travel-credit-cards-2026.html" class="article-card">
+        <div class="article-image" ><img src="ameenfahmy-3V8gdLbwDOI-unsplash.jpg" alt="Best Travel Credit Cards 2026" ></div>
+        <div class="article-tag">Travel</div>
+        <h3>Best Travel Credit Cards of 2026: Full Comparison</h3>
+        <p>Our experts compared 40+ travel cards to find the best rewards, perks, and value for every type of traveler.</p>
+      </a>
+      <a href="best-cash-back-credit-cards-2026.html" class="article-card">
+        <div class="article-image" ><img src="giorgio-trovato-oxwmpNe_7Kw-unsplash.jpg" alt="Best Cash Back Credit Cards 2026" ></div>
+        <div class="article-tag">Cash Back</div>
+        <h3>Best Cash Back Credit Cards: Earn More on Every Purchase</h3>
+        <p>From flat-rate to category bonuses — we break down which cash back cards put the most money back in your pocket.</p>
+      </a>
+      <a href="best-business-credit-cards-2026.html" class="article-card">
+        <div class="article-image" ><img src="floriane-vita-FyD3OWBuXnY-unsplash.jpg" alt="Best Business Credit Cards 2026" ></div>
+        <div class="article-tag">Business</div>
+        <h3>Best Business Credit Cards for Small Business Owners</h3>
+        <p>Maximize your business spending with cards that offer high rewards on office supplies, advertising, and travel.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <div>
+    <h2>Get Weekly Credit Card Insights</h2>
+    <p>New card offers, rate changes, and expert tips delivered to your inbox every week.</p>
+    <form class="newsletter-form" onsubmit="return false;">
+      <input type="email" placeholder="Enter your email address">
+      <button type="submit">Subscribe Free</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">Credit Card <span>Review</span>.org</a>
+        <p>Independent credit card reviews and comparisons. We help you find the right card for your spending and goals.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Top Reviews</h4>
+        <a href="chase-sapphire-preferred-review-2026.html">Chase Sapphire Preferred</a>
+        <a href="chase-sapphire-reserve-review-2026.html">Chase Sapphire Reserve</a>
+        <a href="amex-gold-card-review-2026.html">Amex Gold Card</a>
+        <a href="amex-platinum-card-review-2026.html">Amex Platinum Card</a>
+        <a href="capital-one-venture-x-review-2026.html">Capital One Venture X</a>
+        <a href="citi-double-cash-review-2026.html">Citi Double Cash</a>
+      </div>
+      <div class="footer-col">
+        <h4>Best Of Lists</h4>
+        <a href="best-travel-credit-cards-2026.html">Best Travel Cards</a>
+        <a href="best-cash-back-credit-cards-2026.html">Best Cash Back Cards</a>
+        <a href="best-rewards-credit-cards-2026.html">Best Rewards Cards</a>
+        <a href="best-sign-up-bonus-credit-cards-2026.html">Best Sign-Up Bonuses</a>
+        <a href="best-no-annual-fee-credit-cards-2026.html">No Annual Fee Cards</a>
+        <a href="best-balance-transfer-credit-cards-2026.html">Balance Transfer Cards</a>
+      </div>
+      <div class="footer-col">
+        <h4>More Categories</h4>
+        <a href="best-hotel-credit-cards-2026.html">Best Hotel Cards</a>
+        <a href="best-airline-credit-cards-2026.html">Best Airline Cards</a>
+        <a href="best-credit-cards-for-groceries-2026.html">Best for Groceries</a>
+        <a href="best-business-credit-cards-2026.html">Best Business Cards</a>
+        <a href="best-credit-cards-for-beginners-2026.html">Best for Beginners</a>
+        <a href="articles.html">All Articles →</a>
+      </div>
+      <div class="footer-col">
+        <h4>Site Info</h4>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="editorial-policy.html">Editorial Policy</a>
+        <a href="disclosure.html">Advertiser Disclosure</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 CreditCardReview.org — Reviews by Nathan Blake, independent credit card analyst. Not a bank or financial advisor.</p>
+      <p>Information accurate as of April 2026. Card terms change frequently — always verify on the issuer's website before applying. We may earn a commission when you apply through our links. See our <a href="disclosure.html">Advertiser Disclosure</a> for details.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

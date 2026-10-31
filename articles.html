@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="2ED6cbR1gU8YikTLoWQKzX7TO7M1k-x7F8qiQLBcpDE" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Credit Card Articles & Guides (2026) — CreditCardReview.org</title>
+<meta name="description" content="Browse all credit card reviews, comparisons, and guides from CreditCardReview.org — updated April 2026.">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{--navy:#1a3a5c;--navy-dark:#0f2238;--green:#2ecc71;--green-dark:#27ae60;--white:#fff;--light-gray:#f1f3f5;--mid-gray:#6c757d;--text:#212529;--border:#dee2e6}
+  body{font-family:'Lato',sans-serif;color:var(--text);background:var(--white);line-height:1.7;font-size:17px}
+  header{background:var(--navy);position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(0,0,0,0.15)}
+  .header-inner{max-width:1200px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:68px}
+  .logo{font-family:'Source Serif 4',serif;font-size:1.4rem;font-weight:700;color:#fff;text-decoration:none}
+  .logo span{color:var(--green)}
+  nav{display:flex;align-items:center;gap:1.5rem}
+  nav a{color:rgba(255,255,255,0.85);text-decoration:none;font-size:0.85rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;transition:color 0.2s}
+  nav a:hover{color:var(--green)}
+  .nav-cta{background:var(--green);color:var(--navy)!important;padding:0.5rem 1.25rem;border-radius:4px}
+  .page-hero{background:var(--navy);padding:4rem 2rem;text-align:center}
+  .page-hero h1{font-family:'Source Serif 4',serif;font-size:clamp(1.8rem,3vw,2.5rem);font-weight:700;color:#fff;margin-bottom:0.75rem}
+  .page-hero p{color:rgba(255,255,255,0.75);font-size:1.05rem;max-width:560px;margin:0 auto}
+  .page-wrap{max-width:1100px;margin:0 auto;padding:4rem 2rem}
+  .section-label{font-size:0.72rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--green-dark);margin-bottom:0.5rem}
+  .section-heading{font-family:'Source Serif 4',serif;font-size:1.5rem;font-weight:700;color:var(--navy);margin-bottom:1.5rem;padding-bottom:0.75rem;border-bottom:2px solid var(--border)}
+
+  /* STRICT 3-COLUMN GRID */
+  .articles-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-bottom:3.5rem}
+
+  /* UNIFORM CARD — flexbox, fixed height */
+  .article-card{display:flex;flex-direction:column;text-decoration:none;border:1.5px solid var(--border);border-radius:10px;overflow:hidden;transition:all 0.2s;height:220px}
+  .article-card:hover{box-shadow:0 6px 24px rgba(26,58,92,0.12);transform:translateY(-2px);border-color:var(--navy)}
+
+  /* FIXED BANNER */
+  .card-banner{height:64px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:1.75rem}
+  .card-banner.travel   {background:linear-gradient(135deg,var(--navy),#234d7a)}
+  .card-banner.cashback {background:linear-gradient(135deg,#1a6b1a,#27ae60)}
+  .card-banner.business {background:linear-gradient(135deg,#1a4a6b,#2980b9)}
+  .card-banner.nofee    {background:linear-gradient(135deg,#6b3d1a,#c0752b)}
+  .card-banner.beginners{background:linear-gradient(135deg,#3d1a6b,#7b2dc0)}
+  .card-banner.review   {background:linear-gradient(135deg,#0a1628,#1a3a5c)}
+  .card-banner.guide    {background:linear-gradient(135deg,#1a3d1a,#2e7d32)}
+
+  /* CARD BODY — fills remaining 156px */
+  .card-body{padding:0.875rem 1rem 1rem;display:flex;flex-direction:column;flex:1;overflow:hidden}
+  .article-tag{display:inline-block;font-size:0.65rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--green-dark);background:rgba(46,204,113,0.1);padding:0.15rem 0.5rem;border-radius:3px;margin-bottom:0.35rem;flex-shrink:0}
+
+  /* TITLE — exactly 2 lines, no overflow */
+  .article-card h3{font-family:'Source Serif 4',serif;font-size:0.9rem;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:0.3rem;transition:color 0.2s;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;flex-shrink:0}
+  .article-card:hover h3{color:var(--green-dark)}
+
+  /* DESC — exactly 2 lines, no overflow */
+  .article-card p{font-size:0.8rem;color:var(--mid-gray);line-height:1.5;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+  /* RESPONSIVE */
+  @media(max-width:900px){.articles-grid{grid-template-columns:repeat(2,1fr)}.article-card{height:auto;min-height:200px}}
+  @media(max-width:560px){.articles-grid{grid-template-columns:1fr}}
+  @media(max-width:600px){.header-inner nav{display:none}}
+
+  /* FOOTER */
+  footer{background:#f8f9fa;border-top:2px solid var(--border);margin-top:4rem}
+  .footer-inner{max-width:1200px;margin:0 auto;padding:3rem 2rem 1.5rem}
+  .footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:2rem;margin-bottom:2.5rem}
+  .footer-logo{font-family:'Source Serif 4',serif;font-size:1.1rem;font-weight:700;color:var(--navy);text-decoration:none;display:block;margin-bottom:0.75rem}
+  .footer-logo span{color:var(--green-dark)}
+  .footer-brand p{font-size:0.82rem;color:var(--mid-gray);line-height:1.6}
+  .footer-col h4{font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--navy);margin-bottom:0.875rem}
+  .footer-col a{display:block;font-size:0.82rem;color:#555;text-decoration:none;margin-bottom:0.45rem;line-height:1.4;transition:color 0.2s}
+  .footer-col a:hover{color:var(--navy)}
+  .footer-bottom{border-top:1px solid var(--border);padding-top:1.25rem}
+  .footer-bottom p{font-size:0.78rem;color:var(--mid-gray);line-height:1.6;margin-bottom:0.4rem}
+  .footer-bottom a{color:var(--navy);text-decoration:underline}
+  .footer-bottom a:hover{color:var(--green-dark)}
+  @media(max-width:1000px){.footer-top{grid-template-columns:1fr 1fr 1fr}.footer-brand{grid-column:1/-1}}
+  @media(max-width:640px){.footer-top{grid-template-columns:1fr 1fr}}
+
+  .card-banner-img { height: 80px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: #f0f2f5; overflow: hidden; }
+  .card-banner-img img { height: 64px; width: auto; max-width: 140px; object-fit: contain; }
+
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-427FXEETBZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-427FXEETBZ');
+</script>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">Credit Card <span>Review</span>.org</a>
+        <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="articles.html">Articles</a>
+      <a href="best-travel-credit-cards-2026.html">Travel</a>
+      <a href="best-cash-back-credit-cards-2026.html">Cash Back</a>
+      <a href="best-business-credit-cards-2026.html">Business</a>
+      <a href="index.html#top-picks" class="nav-cta">Top Picks</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <h1>All Credit Card Articles &amp; Guides</h1>
+  <p>Every review, comparison, and guide on CreditCardReview.org — updated April 2026.</p>
+</div>
+
+<div class="page-wrap">
+
+  <div class="section-label">Category Roundups</div>
+  <div class="section-heading">Best Credit Cards By Category</div>
+  <div class="articles-grid">
+    <a href="best-travel-credit-cards-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Sapphire Preferred"></div>
+      <div class="card-body"><div class="article-tag">Travel</div><h3>Best Travel Credit Cards of 2026</h3><p>5 top travel cards compared — bonuses, rewards rates, lounge access, and transfer partners.</p></div>
+    </a>
+    <a href="best-cash-back-credit-cards-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Citi%20Double%20Cash.jpg" alt="Citi Double Cash"></div>
+      <div class="card-body"><div class="article-tag">Cash Back</div><h3>Best Cash Back Credit Cards of 2026</h3><p>The top flat-rate and category cash back cards ranked by real-world value.</p></div>
+    </a>
+    <a href="best-rewards-credit-cards-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Sapphire Preferred"></div>
+      <div class="card-body"><div class="article-tag">Rewards</div><h3>Best Rewards Credit Cards of 2026</h3><p>Top picks for cash back, travel points, and miles — with a guide to choosing the right type.</p></div>
+    </a>
+    <a href="best-no-annual-fee-credit-cards-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Capitol%20One%20Venture%20Rewards.avif" alt="Capital One Venture Rewards"></div>
+      <div class="card-body"><div class="article-tag">No Annual Fee</div><h3>Best No Annual Fee Credit Cards 2026</h3><p>Earn up to 5% cash back and $250 in bonuses without paying a yearly fee.</p></div>
+    </a>
+    <a href="best-sign-up-bonus-credit-cards-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Amex%20Platinum%20Card.avif" alt="Amex Platinum Card"></div>
+      <div class="card-body"><div class="article-tag">Sign-Up Bonuses</div><h3>Best Credit Card Sign-Up Bonuses of 2026</h3><p>Every major welcome offer ranked by value and spend requirement — earn up to $1,500+ in year one.</p></div>
+    </a>
+    <a href="best-business-credit-cards-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Capitol%20One%20Venture%20X%20Rewards.avif" alt="Capital One Venture X"></div>
+      <div class="card-body"><div class="article-tag">Business</div><h3>Best Business Credit Cards of 2026</h3><p>Top picks for freelancers, small businesses, and startups — with $750–$1,000 bonuses.</p></div>
+    </a>
+    <a href="best-hotel-credit-cards-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Marriott Bonvoy Boundless Credit Card.webp" alt="Marriott Bonvoy Boundless"></div>
+      <div class="card-body"><div class="article-tag">Hotel Cards</div><h3>Best Hotel Credit Cards of 2026</h3><p>Best cards for Marriott, Hilton, Hyatt, and IHG — plus the top flexible option.</p></div>
+    </a>
+    <a href="best-airline-credit-cards-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Delta%20Sky%20Miles%20Gold.jpeg" alt="Delta SkyMiles Gold"></div>
+      <div class="card-body"><div class="article-tag">Airline Cards</div><h3>Best Airline Credit Cards of 2026</h3><p>Best cards for Delta, United, Southwest, and American — free bags, miles, boarding perks.</p></div>
+    </a>
+    <a href="best-credit-cards-for-groceries-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Amex%20Express%20Gold%20Card.avif" alt="Amex Gold Card"></div>
+      <div class="card-body"><div class="article-tag">Grocery Rewards</div><h3>Best Credit Cards for Groceries of 2026</h3><p>Earn up to 6% cash back at U.S. supermarkets — real math for every spending level.</p></div>
+    </a>
+    <a href="best-balance-transfer-credit-cards-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Citi%20Double%20Cash.jpg" alt="Citi Double Cash"></div>
+      <div class="card-body"><div class="article-tag">Balance Transfer</div><h3>Best Balance Transfer Credit Cards 2026</h3><p>0% APR for up to 21 months — stop paying interest and pay off debt faster.</p></div>
+    </a>
+    <a href="best-credit-cards-for-beginners-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Capitol%20One%20Platinum.avif" alt="Capital One Platinum"></div>
+      <div class="card-body"><div class="article-tag">Beginners</div><h3>Best Credit Cards for Beginners 2026</h3><p>The best first cards for no credit history, students, and new cardholders.</p></div>
+    </a>
+    <a href="best-credit-cards-for-gas-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Costco%20Anywhere%20Visa%20Card%20by%20Citi.png" alt="Best Gas Credit Cards 2026"></div>
+      <div class="card-body"><div class="article-tag">Best Of List</div><h3>Best Credit Cards for Gas 2026</h3><p>Costco Anywhere Visa (4%), BofA Customized Cash (6% yr 1), Sam's Club Mastercard (5%), Citi Strata Premier (3x unlimited), and Blue Cash Preferred (3%). Find the best gas rewards card for your situation.</p></div>
+    </a>
+  </div>
+
+  <div class="section-label">Individual Card Reviews</div>
+  <div class="section-heading">In-Depth Card Reviews</div>
+  <div class="articles-grid">
+    <a href="chase-sapphire-preferred-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Sapphire Preferred"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Chase Sapphire Preferred® Review 2026</h3><p>75,000 point bonus and $95 annual fee — full breakdown of every benefit.</p></div>
+    </a>
+    <a href="chase-sapphire-reserve-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Sapphire%20Reserve%20Credit%20Card.webp" alt="Chase Sapphire Reserve"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Chase Sapphire Reserve® Review 2026</h3><p>125,000 points, $2,700+ in credits, lounge access — is the $795 fee worth it?</p></div>
+    </a>
+    <a href="amex-gold-card-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Amex%20Express%20Gold%20Card.avif" alt="Amex Gold Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>American Express Gold Card Review 2026</h3><p>4x dining and groceries, $424 in credits, up to 100,000 points — worth the $325 fee?</p></div>
+    </a>
+    <a href="amex-platinum-card-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Amex%20Platinum%20Card.avif" alt="Amex Platinum Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Amex Platinum Card Review 2026</h3><p>$895 fee, 1,550+ lounges, $3,500+ in annual credits — is it worth it?</p></div>
+    </a>
+    <a href="capital-one-venture-x-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Capitol%20One%20Venture%20X%20Rewards.avif" alt="Capital One Venture X"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Capital One Venture X Review 2026</h3><p>$300 travel credit, lounge access, 75,000 miles — the best value premium card?</p></div>
+    </a>
+    <a href="citi-double-cash-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Citi%20Double%20Cash.jpg" alt="Citi Double Cash"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Citi Double Cash® Card Review 2026</h3><p>2% on everything, $0 fee, 18-month balance transfer — plus the hidden ThankYou Points upgrade.</p></div>
+    </a>
+    <a href="luxury-card-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Luxury%20Credit%20Cards%20Screenshot.png" alt="Luxury Card Mastercard Titanium Black Gold"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Luxury Card Review 2026</h3><p>All three Mastercards compared — Titanium ($299), Black ($699), Gold ($1,199). Beautiful cards. Honest verdict.</p></div>
+    </a>
+    <a href="bilt-card-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Bilt%20Obsidian%20Credit%20Card.webp" alt="Bilt Obsidian Credit Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Bilt Card Review 2026</h3><p>Earn points on rent and mortgage — no transaction fee. Blue ($0), Obsidian ($95), Palladium ($495) compared.</p></div>
+    </a>
+    <a href="marriott-bonvoy-boundless-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Marriott Bonvoy Boundless Credit Card.webp" alt="Marriott Bonvoy Boundless"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Marriott Bonvoy Boundless® Review 2026</h3><p>Annual free night worth $245+, up to 17x at Marriott, Silver Elite status — is the $95 fee worth it?</p></div>
+    </a>
+    <a href="ihg-one-rewards-premier-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="IHG One Rewards Premier Credit Card.avif" alt="IHG One Rewards Premier"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>IHG One Rewards Premier Review 2026</h3><p>140,000 bonus points, annual free night, 4th night free, Platinum Elite status — all for $99/year.</p></div>
+    </a>
+    <a href="delta-skymiles-gold-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Delta%20Sky%20Miles%20Gold.jpeg" alt="Delta SkyMiles Gold"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Delta SkyMiles Gold Amex Review 2026</h3><p>Free checked bag + 8 companions, TakeOff 15%, up to 80K miles — $0 first year then $150.</p></div>
+    </a>
+    <a href="hilton-honors-aspire-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Hilton Honors American Express Aspire Card.avif" alt="Hilton Honors Aspire"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Hilton Honors Aspire Review 2026</h3><p>$809+ in annual credits, annual free night at any Hilton (no cap), Diamond status — $550/yr.</p></div>
+    </a>
+    <a href="delta-skymiles-reserve-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Delta SkyMiles Reserve American Express Card.avif" alt="Delta SkyMiles Reserve"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Delta SkyMiles Reserve Amex Review 2026</h3><p>Sky Club + Centurion Lounge access, First Class companion certificate, MQD headstart — $650/year.</p></div>
+    </a>
+    <a href="delta-skymiles-platinum-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Delta SkyMiles Platinum American Express Card.avif" alt="Delta SkyMiles Platinum"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Delta SkyMiles Platinum Amex Review 2026</h3><p>Main Cabin companion certificate, 3x on Delta + hotels, $440+ in credits, MQD headstart — $350/year.</p></div>
+    </a>
+    <a href="chase-freedom-unlimited-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase Freedom Unlimited.webp" alt="Chase Freedom Unlimited"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Chase Freedom Unlimited® Review 2026</h3><p>$250 bonus, $0 annual fee, 1.5% on everything, 3% dining, unlocks Sapphire travel transfers — the best no-fee card.</p></div>
+    </a>
+    <a href="fidelity-rewards-visa-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Fidelity Credit Card.png" alt="Fidelity Rewards Visa"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Fidelity® Rewards Visa Signature® Review 2026</h3><p>2% cash back auto-deposited into your Fidelity IRA, brokerage, or 529. No annual fee, no foreign transaction fee. The best card for investors.</p></div>
+    </a>
+    <a href="ebay-mastercard-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Ebay credit card.jpg" alt="eBay Mastercard"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>eBay Mastercard Review 2026</h3><p>3–5x points on eBay, 2x on dining/gas/groceries, $0 annual fee. But rewards are eBay-only. Is it worth it for frequent buyers?</p></div>
+    </a>
+    <a href="wells-fargo-active-cash-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Wells Fargo Active Cash.png" alt="Wells Fargo Active Cash"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Wells Fargo Active Cash® Review 2026</h3><p>Unlimited 2% on everything, $200 bonus after just $500 spend, $600 cell phone protection. The strongest flat-rate cash back card with no annual fee.</p></div>
+    </a>
+    <a href="capital-one-venture-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Capitol%20One%20Venture%20Rewards.avif" alt="Capital One Venture"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Capital One Venture Rewards Card Review 2026</h3><p>75,000-mile welcome bonus, 2x miles on everything, Global Entry credit, 15+ transfer partners — the simplest $95 travel card.</p></div>
+    </a>
+    <a href="amex-blue-cash-everyday-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Amex Blue Cash Everyday.avif" alt="Amex Blue Cash Everyday"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Amex Blue Cash Everyday® Review 2026</h3><p>3% at U.S. supermarkets, gas stations, and online retail (up to $6K each). 15-month 0% APR. Disney+ credit. Best no-fee grocery card for moderate spenders.</p></div>
+    </a>
+    <a href="chase-freedom-flex-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase Freedom Flex.png" alt="Chase Freedom Flex"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Chase Freedom Flex® Review 2026</h3><p>5% rotating categories (Q2: Amazon + Whole Foods), 3% dining, $800 phone protection, stacks with Sapphire for airline transfers. $0 annual fee.</p></div>
+    </a>
+    <a href="american-eagle-credit-card-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="American Eagle.webp" alt="American Eagle Real Rewards Visa"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>American Eagle Real Rewards Visa® Review 2026</h3><p>40% off first AE purchase, Level 2 Real Rewards status auto, ~12% back at AE/Aerie. No annual fee — but 33.24% APR demands full payment every month.</p></div>
+    </a>
+    <a href="gap-encore-mastercard-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Gap Encore.png" alt="Gap Encore Mastercard"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Gap Encore Mastercard® Review 2026</h3><p>Brand new Feb 2026. 5x at Gap/Old Navy/Banana Republic/Athleta. 3x at ALL apparel retailers — H&M, Zara, Madewell, and more. No annual fee.</p></div>
+    </a>
+    <a href="macys-credit-card-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Macys Credit Card.webp" alt="Macy's Credit Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Macy's Credit Card Review 2026</h3><p>2–5% back at Macy's depending on annual spend tier. Amex version adds 3% dining + 2% gas/groceries. 30% off first purchase. No annual fee — Star Rewards explained.</p></div>
+    </a>
+    <a href="costco-anywhere-visa-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Costco Anywhere Visa Card by Citi.png" alt="Costco Anywhere Visa Card by Citi"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Costco Anywhere Visa® Card by Citi Review 2026</h3><p>5% Costco gas, 4% other gas/EV, 3% dining and travel, 2% at Costco. No annual fee with membership. Rewards issued annually in February. Best warehouse card for travelers.</p></div>
+    </a>
+    <a href="costco-anywhere-visa-business-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Costco Anywhere Visa Business Card by Citi.png" alt="Costco Anywhere Visa Business Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Costco Anywhere Visa® Business Card by Citi Review 2026</h3><p>Identical earn rates to the personal card — built for Costco Business members and small business owners with high fuel, dining, or Costco spending.</p></div>
+    </a>
+    <a href="sams-club-mastercard-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Sams Club Mastercard.webp" alt="Sam's Club Mastercard"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Sam's Club® Mastercard® Review 2026</h3><p>5% gas anywhere Mastercard accepted (first $6K). 3% dining. Up to 5% total at Sam's for Plus members. Monthly Sam's Cash — no waiting for an annual certificate.</p></div>
+    </a>
+    <a href="harley-davidson-credit-card-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Harley Davidson.png" alt="Harley-Davidson Visa Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Harley-Davidson® Visa Signature® Review 2026</h3><p>3x at H-D dealerships and gas stations. 2x dining and lodging. $100 welcome bonus. Motorcycle sweepstakes entries with every purchase. No annual fee — but rewards locked to H-D gear.</p></div>
+    </a>
+    <a href="fortiva-credit-card-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Fortiva.webp" alt="Fortiva Cash Back Rewards Mastercard"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Fortiva® Cash Back Rewards Mastercard Review 2026</h3><p>3% gas/groceries/utilities for bad credit — no security deposit. But $85–$175 annual fee in year one, monthly fees after, and 36% APR. Know the full cost before applying.</p></div>
+    </a>
+    <a href="mgm-rewards-world-elite-mastercard-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="MGM Rewards World Elite Mastercard.webp" alt="MGM Rewards World Elite Mastercard"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>MGM Rewards™ World Elite Mastercard® Review 2026</h3><p>$0 annual fee. 3x at MGM destinations. Automatic Pearl status + free parking. 2x gas and groceries. Marriott Silver match. Best no-fee casino card for MGM visitors.</p></div>
+    </a>
+    <a href="mgm-rewards-iconic-mastercard-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="MGM Rewards Iconic World Elite Mastercard.webp" alt="MGM Rewards Iconic Mastercard"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>MGM Rewards™ Iconic World Elite Mastercard® Review 2026</h3><p>$249/yr. 6x at MGM. $200 annual resort credit. Global Entry. Note: Priority Pass charges $35/visit — not free lounge access. For serious MGM loyalists only.</p></div>
+    </a>
+    <a href="caesars-rewards-visa-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Caesars Rewards Visa Signature.png" alt="Caesars Rewards Visa Signature"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Caesars Rewards® Visa Signature® Review 2026</h3><p>$0 annual fee. 5x at Caesars destinations. 2x dining/travel/entertainment. Auto Platinum status on first purchase. Best no-fee casino card for Caesars visitors.</p></div>
+    </a>
+    <a href="caesars-rewards-prestige-visa-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Caesars Rewards Prestige Visa Signature.png" alt="Caesars Rewards Prestige Visa"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Caesars Rewards® Prestige Visa Signature® Review 2026</h3><p>$149/yr. 7x at Caesars. $100 dining credit + $50 slot play + free hotel night = up to $450 annual value. Path to Diamond status. Launched July 2025.</p></div>
+    </a>
+
+    <a href="capital-one-quicksilver-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Capital One Quicksilver.avif" alt="Capital One Quicksilver"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Capital One Quicksilver Cash Rewards Card Review 2026</h3><p>1.5% on everything, 5% on Capital One Travel hotels and rentals, $200 bonus after $500 spend, 0% APR 15 months. No annual fee. No foreign transaction fee.</p></div>
+    </a>
+
+    <a href="discover-it-cash-back-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Discover It Cash Back.avif" alt="Discover it Cash Back"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Discover it® Cash Back Review 2026</h3><p>5% on rotating quarterly categories (Q2: restaurants + home improvement). Unlimited Cashback Match doubles all first-year earnings. Best year-one value of any no-fee card.</p></div>
+    </a>
+
+    <a href="discover-it-student-cash-back-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Discover It Student Cash Back.avif" alt="Discover it Student Cash Back"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Discover it® Student Cash Back Review 2026</h3><p>Full 5% rotating rewards + Cashback Match for students with no credit history. $20 Good Grade Reward for 3.0+ GPA. No annual fee. The best first credit card available.</p></div>
+    </a>
+
+    <a href="discover-it-secured-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Discover It Secured.avif" alt="Discover it Secured"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Discover it® Secured Credit Card Review 2026</h3><p>The best secured card available. 2% at gas + restaurants, Cashback Match year 1, $0 annual fee, and automatic upgrade review at 7 months. No annual fee.</p></div>
+    </a>
+
+    <a href="discover-it-miles-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Discover It Miles.avif" alt="Discover it Miles"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Discover it® Miles Review 2026</h3><p>1.5x miles on everything, unlimited Miles Match year one. Redeem against any travel purchase as a statement credit — no portal, no blackout dates. No annual fee.</p></div>
+    </a>
+
+    <a href="discover-it-chrome-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Discover It Chrome Gas and Restaurant.avif" alt="Discover it Chrome"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Discover it® Chrome Gas & Restaurant Review 2026</h3><p>2% at gas stations and restaurants (up to $1,000/quarter), 1% everywhere else. No activation needed. Cashback Match year one. Simpler than rotating categories.</p></div>
+    </a>
+
+    <a href="nhl-discover-it-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="NHL Discover It.avif" alt="NHL Discover it"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>NHL Discover it® Credit Card Review 2026</h3><p>All the rewards of the Discover it Cash Back — 5% rotating, Cashback Match — with NHL team designs and fan perks. No annual fee. For hockey fans who want real rewards.</p></div>
+    </a>
+
+    <a href="discover-it-student-chrome-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Discover It Student Chrome.avif" alt="Discover it Student Chrome"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Discover it® Student Chrome Review 2026</h3><p>2% at gas + restaurants automatically (no activation). Cashback Match year one. $20 Good Grade Reward. No credit history required. The simpler Discover student card.</p></div>
+    </a>
+  
+    <a href="citi-strata-premier-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Citi%20Strata%20Premier.webp" alt="Citi Strata Premier Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Citi Strata Premier® Card Review 2026</h3><p>3x on restaurants, groceries, gas, air, and hotels. $100 annual hotel benefit. 22 transfer partners at 1:1 including exclusive AAdvantage. No FTF. $95/yr.</p></div>
+    </a>
+    <a href="apple-card-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Apple%20Card.jpg" alt="Apple Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Apple Card Review 2026</h3><p>3% Daily Cash at Apple and select merchants via Apple Pay. 2% all other Apple Pay. Zero fees of any kind. Titanium card. Chase taking over ~2028.</p></div>
+    </a>
+    <a href="paypal-cashback-mastercard-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="PayPal%20Cashback%20Mastercard.webp" alt="PayPal Cashback Mastercard"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>PayPal Cashback Mastercard® Review 2026</h3><p>3% on all PayPal checkout purchases. 1.5% everywhere else Mastercard is accepted. No caps, no annual fee. Instant cash back to PayPal balance.</p></div>
+    </a>
+    <a href="amex-blue-cash-preferred-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Blue%20Cash%20Preferred.avif" alt="Blue Cash Preferred Card from American Express"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Blue Cash Preferred® Card from American Express Review 2026</h3><p>6% at U.S. supermarkets (up to $6K/yr) and select streaming. 3% gas and transit. $10/month Disney Bundle credit. Best grocery cash back card available. $95/yr.</p></div>
+    </a>
+    <a href="chase-ink-business-cash-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Ink%20Business%20Cash.jpeg" alt="Chase Ink Business Cash Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Ink Business Cash® Credit Card Review 2026</h3><p>5% at office supply stores and internet/cable/phone (up to $25K/yr combined). 2% gas and restaurants. $750 welcome bonus. 0% APR 12 months. No annual fee.</p></div>
+    </a>
+    <a href="chase-ink-business-unlimited-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Ink%20Business%20Unlimited.jpeg" alt="Chase Ink Business Unlimited Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Ink Business Unlimited® Credit Card Review 2026</h3><p>1.5% on every business purchase — unlimited and uncapped. $750 welcome bonus. 0% APR 12 months. Pairs with Sapphire cards to unlock 14 transfer partners. No annual fee.</p></div>
+    </a>
+    <a href="chase-ink-business-preferred-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Ink%20Business%20Preferred.jpeg" alt="Chase Ink Business Preferred Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Ink Business Preferred® Credit Card Review 2026</h3><p>3x on travel, shipping, telecom, and social/search advertising (up to $150K/yr). 100,000-point welcome bonus. 14 transfer partners at 1:1. $1,000 cell phone protection. $95/yr.</p></div>
+    </a>
+    <a href="chase-ink-business-premier-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Ink%20Business%20Premier.jpeg" alt="Chase Ink Business Premier Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Ink Business Premier® Credit Card Review 2026</h3><p>2.5% on single purchases of $5,000 or more. 2% on everything else. 5% Chase Travel. $1,000 welcome bonus. Cash back only — no transfer partners. $195/yr.</p></div>
+    </a>
+    <a href="chase-sapphire-reserve-for-business-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Sapphire%20Reserve%20for%20Business.webp" alt="Chase Sapphire Reserve for Business Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Chase Sapphire Reserve for Business℠ Review 2026</h3><p>8x Chase Travel, 4x direct flights/hotels, 3x advertising. $300 travel credit. $500 Edit hotel credit. $400 ZipRecruiter credit. Lounge access + 2 guests. 150K bonus. $795/yr.</p></div>
+    </a>
+  
+    <a href="boa-premium-rewards-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="BOA%20Premium%20Rewards.png" alt="Bank of America Premium Rewards"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Bank of America Premium Rewards&#174; Credit Card Review 2026</h3><p>2x travel + dining, 1.5x all else. $100 annual airline credit. Preferred Rewards boost up to 3.5x at Platinum Honors. 60K welcome bonus. $95/yr.</p></div>
+    </a>
+    <a href="boa-bankamericard-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="BOA%20BankAmericard.png" alt="BankAmericard Credit Card"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>BankAmericard&#174; Credit Card Review 2026</h3><p>21 billing cycles 0% APR on purchases and balance transfers. No annual fee. No rewards. No penalty APR. Best-in-class 0% window for paying down debt.</p></div>
+    </a>
+    <a href="boa-travel-rewards-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="BOA%20Travel%20Rewards.png" alt="Bank of America Travel Rewards"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Bank of America&#174; Travel Rewards Credit Card Review 2026</h3><p>1.5x points everywhere, no annual fee, no foreign transaction fee. 25K bonus ($250 toward travel) after $1,000/90 days. Preferred Rewards boost up to 2.625x.</p></div>
+    </a>
+    <a href="boa-unlimited-cash-rewards-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="BOA%20Unlimited%20Cash%20Rewards.png" alt="Bank of America Unlimited Cash Rewards"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Bank of America&#174; Unlimited Cash Rewards Credit Card Review 2026</h3><p>2% cash back everywhere in year one, then 1.5%. $200 bonus after $1,000. Preferred Rewards boost up to 2.625%. 15-mo 0% APR. No annual fee.</p></div>
+    </a>
+    <a href="boa-customized-cash-rewards-review-2026.html" class="article-card">
+      <div class="card-banner-img"><img src="BOA%20Customized%20Cash%20Rewards.png" alt="Bank of America Customized Cash Rewards"></div>
+      <div class="card-body"><div class="article-tag">Card Review</div><h3>Bank of America&#174; Customized Cash Rewards Credit Card Review 2026</h3><p>6% year 1 / 3% year 2+ in your choice category (gas, online shopping, dining, travel, drugstores, or home improvement). 2% grocery and wholesale. $200 bonus. $0/yr.</p></div>
+    </a>
+  </div>
+
+    <div class="section-label">Comparisons</div>
+  <div class="section-heading">Head-to-Head Card Comparisons</div>
+  <div class="articles-grid">
+    <a href="chase-sapphire-preferred-vs-capital-one-venture.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Sapphire Preferred" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#6c757d;font-size:1rem">VS</span>
+        <img src="Capitol%20One%20Venture%20Rewards.avif" alt="Capital One Venture" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Chase Sapphire Preferred vs. Capital One Venture 2026</h3><p>Both cost $95/year with 75,000-point bonuses. Which $95 travel card actually wins? A full round-by-round breakdown.</p></div>
+    </a>
+    <a href="chase-sapphire-reserve-vs-amex-platinum.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Chase%20Sapphire%20Reserve%20Credit%20Card.webp" alt="Chase Sapphire Reserve" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Amex%20Platinum%20Card.avif" alt="Amex Platinum" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Chase Sapphire Reserve vs. Amex Platinum 2026</h3><p>$795 vs. $895. Reserve wins on dining, Hyatt, and trip protections. Platinum wins on Centurion Lounges and hotel status. Which is right for you?</p></div>
+    </a>
+    <a href="capital-one-venture-x-vs-amex-gold.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Capitol%20One%20Venture%20X%20Rewards.avif" alt="Capital One Venture X" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Amex%20Express%20Gold%20Card.avif" alt="Amex Gold Card" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Capital One Venture X vs. Amex Gold Card 2026</h3><p>Lounge access &amp; 2x on everything vs. 4x dining &amp; groceries. Two very different cards at similar price points.</p></div>
+    </a>
+    <a href="walmart-onepay-vs-target-circle-card.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Walmart One Pay.png" alt="Walmart OnePay" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Target Circle Card.png" alt="Target Circle Card" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Walmart OnePay vs. Target Circle Card 2026</h3><p>Both offer 5% back at their store for $0/year. But one works everywhere and one is store-only. Which should you carry?</p></div>
+    </a>
+    <a href="home-depot-vs-lowes-credit-card.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Home Depot Credit Card.webp" alt="Home Depot Card" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="MyLowes Rewards Credit Card2.webp" alt="MyLowes Card" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Home Depot vs. Lowe's Credit Card 2026</h3><p>Lowe's offers 5% off every purchase. Home Depot offers zero ongoing rewards. Not a close comparison — but here's when Home Depot still makes sense.</p></div>
+    </a>
+    <a href="kroger-vs-harris-teeter-credit-card.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Kroger Rewards World Elite Mastercard.png" alt="Kroger Card" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Harris Teeter Rewards World Elite Mastercard.png" alt="Harris Teeter Card" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Kroger vs. Harris Teeter Credit Card 2026</h3><p>Nearly identical cards from U.S. Bank — same 5% mobile wallet rate, same $100 bonus. The right choice depends entirely on your market.</p></div>
+    </a>
+    <a href="ashley-advantage-vs-rooms-to-go-credit-card.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Ashley Advantage Credit Card.webp" alt="Ashley Advantage" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Rooms to Go.webp" alt="Rooms to Go" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Ashley Advantage vs. Rooms to Go Credit Card 2026</h3><p>Both furniture store financing cards. Neither earns rewards. But one uses dangerous deferred interest. Know the difference before you sign.</p></div>
+    </a>
+    <a href="chase-freedom-unlimited-vs-freedom-flex.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Chase%20Freedom%20Unlimited.webp" alt="Chase Freedom Unlimited" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Freedom Flex" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Chase Freedom Unlimited vs. Freedom Flex 2026</h3><p>1.5% guaranteed vs. 5% rotating categories. Both $0 fee. Which Chase no-fee card earns more — and when should you get both?</p></div>
+    </a>
+    <a href="delta-skymiles-platinum-vs-reserve.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Delta SkyMiles Platinum American Express Card.avif" alt="Delta Platinum" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:rgba(255,255,255,.3);font-size:1rem">VS</span>
+        <img src="Delta SkyMiles Reserve American Express Card.avif" alt="Delta Reserve" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Delta SkyMiles Platinum vs. Reserve 2026</h3><p>$350 vs. $650. Both have companion certs and MQD headstart. Reserve adds Sky Club + First Class certs. Is the $300 upgrade worth it?</p></div>
+    </a>
+    <a href="amex-blue-cash-preferred-vs-gold-card.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Amex%20Blue%20Cash%20Preferred.avif" alt="Blue Cash Preferred" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Amex%20Express%20Gold%20Card.avif" alt="Amex Gold Card" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Amex Blue Cash Preferred vs. Gold Card 2026</h3><p>6% groceries + gas + streaming vs. 4x dining + travel points. Two very different strategies for food spenders.</p></div>
+    </a>
+    <a href="citi-double-cash-vs-wells-fargo-active-cash.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Citi%20Double%20Cash.jpg" alt="Citi Double Cash" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Chase%20Freedom%20Unlimited.webp" alt="Wells Fargo Active Cash" style="height:52px;width:auto;object-fit:contain;filter:hue-rotate(310deg)">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Citi Double Cash vs. Wells Fargo Active Cash 2026</h3><p>Both earn 2% with $0 annual fee. Wells Fargo wins on bonus threshold and cell phone protection. Citi wins on balance transfers and transfer partners.</p></div>
+    </a>
+    <a href="chase-sapphire-preferred-vs-amex-gold.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Sapphire Preferred" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Amex%20Express%20Gold%20Card.avif" alt="Amex Gold Card" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Chase Sapphire Preferred vs. Amex Gold 2026</h3><p>$95 vs. $325. CSP wins on fee and Hyatt. Gold wins on dining rate, groceries, and $424+ annual credits. The most-asked mid-tier card question, answered.</p></div>
+    </a>
+    <a href="amex-platinum-vs-capital-one-venture-x.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Amex%20Platinum%20Card.avif" alt="Amex Platinum" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Capitol%20One%20Venture%20X%20Rewards.avif" alt="Capital One Venture X" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Amex Platinum vs. Capital One Venture X 2026</h3><p>$895 vs. $395. Venture X's fee is nearly free after two credits. Platinum has the world's best lounge access and auto hotel status. Which is worth it?</p></div>
+    </a>
+    <a href="delta-skymiles-gold-vs-reserve.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Delta SkyMiles Platinum American Express Card.avif" alt="Delta Gold" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Delta SkyMiles Reserve American Express Card.avif" alt="Delta Reserve" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Delta SkyMiles Gold vs. Reserve 2026</h3><p>$150 vs. $650. Gold covers free bags and a flight credit. Reserve adds lounges, First Class companion cert, and Medallion acceleration. Is the $500 jump worth it?</p></div>
+    </a>
+    <a href="marriott-bonvoy-boundless-vs-hilton-honors-aspire.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Marriott Bonvoy Boundless.png" alt="Marriott Bonvoy Boundless" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Hilton%20Honors%20American%20Express%20Aspire%20Card.avif" alt="Hilton Aspire" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Marriott Bonvoy Boundless vs. Hilton Honors Aspire 2026</h3><p>$95 vs. $550. Boundless wins on value and simplicity. Aspire wins on auto Diamond status, Priority Pass, and $875+ in annual credits.</p></div>
+    </a>
+    <a href="ihg-one-rewards-premier-vs-marriott-bonvoy-boundless.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="IHG One Rewards Premier Credit Card.avif" alt="IHG Premier" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Marriott Bonvoy Boundless.png" alt="Marriott Boundless" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>IHG One Rewards Premier vs. Marriott Bonvoy Boundless 2026</h3><p>Nearly identical fees (~$99/$95). IHG wins on Platinum status and 4th night free. Marriott wins on the world's largest hotel network. Which mid-tier hotel card is right for you?</p></div>
+    </a>
+    <a href="southwest-rapid-rewards-plus-vs-chase-sapphire-preferred.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Southwest Card" style="height:52px;width:auto;object-fit:contain;filter:hue-rotate(160deg)">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Sapphire Preferred" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Southwest Rapid Rewards Plus vs. Chase Sapphire Preferred 2026</h3><p>CSP points transfer to Southwest 1:1 — plus 13 other partners. Southwest Plus earns only Southwest miles. Which should Southwest flyers get?</p></div>
+    </a>
+    <a href="amazon-prime-visa-vs-citi-double-cash.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Amazon Prime Visa.png" alt="Amazon Prime Visa" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Citi%20Double%20Cash.jpg" alt="Citi Double Cash" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Amazon Prime Visa vs. Citi Double Cash 2026</h3><p>5% at Amazon vs. 2% on everything. One needs a $139 Prime membership. One has airline transfer partners. Which card earns more for your spending?</p></div>
+    </a>
+    <a href="costco-anywhere-visa-vs-sams-club-mastercard.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Cosco Anywhere Visa.png" alt="Costco Anywhere Visa" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Sams Club Mastercard.webp" alt="Sam's Club Mastercard" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Costco Anywhere Visa vs. Sam's Club Mastercard 2026</h3><p>Both earn big on gas. Sam's wins on 5% gas everywhere. Costco wins on travel rewards and no annual cap. Which warehouse card is right for you?</p></div>
+    </a>
+    <a href="best-buy-credit-card-vs-amazon-prime-visa.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Best Buy Credit Card.webp" alt="Best Buy Card" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Amazon Prime Visa.png" alt="Amazon Prime Visa" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Best Buy Credit Card vs. Amazon Prime Visa 2026</h3><p>Both earn 5% at their electronics stores. But Best Buy locks rewards into Best Buy gift certificates. Amazon Prime Visa redeems for cash and works at Whole Foods too.</p></div>
+    </a>
+    <a href="ikea-projekt-credit-card-vs-ashley-advantage.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="IKEA Credit Card.webp" alt="IKEA Projekt Card" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Ashley Advantage Credit Card.webp" alt="Ashley Advantage" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>IKEA Projekt vs. Ashley Advantage 2026</h3><p>Both offer 0% furniture financing. IKEA uses safe equal monthly payments. Ashley uses deferred interest — which can cost hundreds if you miss the payoff deadline.</p></div>
+    </a>
+    <a href="mgm-rewards-iconic-vs-world-elite-mastercard.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="MGM Rewards Iconic World Elite Mastercard.webp" alt="MGM Iconic" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="MGM Rewards World Elite Mastercard.webp" alt="MGM World Elite" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>MGM Rewards Iconic vs. World Elite Mastercard 2026</h3><p>$249 vs. $0. Both give Pearl status and Marriott Silver match. Iconic doubles your earn rate and adds $200 resort credit — but is it worth $249 more?</p></div>
+    </a>
+    <a href="caesars-rewards-prestige-vs-visa-signature.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Caesars Rewards Prestige Visa Signature.png" alt="Caesars Prestige" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#adb5bd;font-size:1rem">VS</span>
+        <img src="Caesars Rewards Visa Signature.png" alt="Caesars Visa" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Caesars Rewards Prestige vs. Visa Signature 2026</h3><p>$149 vs. $0. Both give auto Platinum status. Prestige adds $100 dining + $50 slot play + free hotel night = up to $450/yr. Breaks even with just one casino dinner.</p></div>
+    </a>
+  
+    <a href="amex-blue-cash-preferred-vs-everyday.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Blue%20Cash%20Preferred.avif" alt="Blue Cash Preferred" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#6c757d;font-size:1rem">VS</span>
+        <img src="Blue%20Cash%20Everyday.avif" alt="Blue Cash Everyday" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Blue Cash Preferred vs. Blue Cash Everyday 2026</h3><p>6% groceries + $95/yr vs. 3% groceries + $0/yr. Break-even analysis and decision guide for Amex grocery cards.</p></div>
+    </a>
+    <a href="chase-ink-business-cash-vs-unlimited.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Chase%20Ink%20Business%20Cash.jpeg" alt="Ink Business Cash" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#6c757d;font-size:1rem">VS</span>
+        <img src="Chase%20Ink%20Business%20Unlimited.jpeg" alt="Ink Business Unlimited" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Ink Business Cash vs. Ink Business Unlimited 2026</h3><p>Both $0 fee with $750 bonuses. Cash earns 5% on office/telecom. Unlimited earns 1.5% on everything. Which Chase business card earns more for your business?</p></div>
+    </a>
+    <a href="chase-ink-business-preferred-vs-premier.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Chase%20Ink%20Business%20Preferred.jpeg" alt="Ink Business Preferred" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#6c757d;font-size:1rem">VS</span>
+        <img src="Chase%20Ink%20Business%20Premier.jpeg" alt="Ink Business Premier" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Ink Business Preferred vs. Ink Business Premier 2026</h3><p>Preferred: $95/yr, 3x business categories, 14 transfer partners. Premier: $195/yr, 2.5% on $5K+ purchases, cash back only. Which Chase business card is right for you?</p></div>
+    </a>
+    <a href="chase-sapphire-preferred-vs-citi-strata-premier.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Chase Sapphire Preferred" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#6c757d;font-size:1rem">VS</span>
+        <img src="Citi%20Strata%20Premier.webp" alt="Citi Strata Premier" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Chase Sapphire Preferred vs. Citi Strata Premier 2026</h3><p>Both $95/yr with 60,000-point welcome bonuses. CSP wins on Hyatt and travel protections. Strata Premier wins on groceries, gas, and AAdvantage. Full round-by-round breakdown.</p></div>
+    </a>
+    <a href="apple-card-vs-wells-fargo-active-cash.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Apple%20Card.jpg" alt="Apple Card" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#6c757d;font-size:1rem">VS</span>
+        <img src="Wells%20Fargo%20Active%20Cash.png" alt="Wells Fargo Active Cash" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Apple Card vs. Wells Fargo Active Cash 2026</h3><p>Both $0 annual fee. Active Cash: 2% everywhere + $200 bonus + cell phone protection. Apple Card: 3% at Apple Pay merchants + same-day Daily Cash + iOS only. Which no-fee card wins?</p></div>
+    </a>
+  
+    <a href="discover-it-cash-back-vs-chase-freedom-flex.html" class="article-card">
+      <div class="card-banner-img" style="display:flex;gap:.5rem;padding:.75rem;align-items:center;justify-content:center;background:#f0f4f8">
+        <img src="Discover%20It%20Cash%20Back.avif" alt="Discover it Cash Back" style="height:52px;width:auto;object-fit:contain">
+        <span style="font-weight:900;color:#6c757d;font-size:1rem">VS</span>
+        <img src="Chase%20Freedom%20Flex.png" alt="Chase Freedom Flex" style="height:52px;width:auto;object-fit:contain">
+      </div>
+      <div class="card-body"><div class="article-tag">Comparison</div><h3>Discover it&#174; Cash Back vs. Chase Freedom Flex&#174; 2026</h3><p>Both earn 5% in quarterly rotating categories at $0 annual fee. Discover doubles first-year earnings (Cashback Match). Freedom Flex adds permanent 3% dining + 14 UR transfer partners. Full round-by-round breakdown.</p></div>
+    </a>
+  </div>
+
+  <div class="section-label">Educational Guides</div>
+  <div class="section-heading">Credit Card Guides</div>
+  <div class="articles-grid">
+    <a href="how-to-choose-your-first-credit-card.html" class="article-card">
+      <div class="card-banner-img"><img src="Capitol%20One%20Platinum.avif" alt="Capital One Platinum"></div>
+      <div class="card-body"><div class="article-tag">Beginner's Guide</div><h3>How to Choose Your First Credit Card</h3><p>A 5-step framework for picking the right card based on your credit score and spending.</p></div>
+    </a>
+    <a href="what-is-a-credit-card-annual-fee.html" class="article-card">
+      <div class="card-banner-img"><img src="Amex%20Express%20Gold%20Card.avif" alt="Amex Gold Card"></div>
+      <div class="card-body"><div class="article-tag">Credit Card Basics</div><h3>What Is a Credit Card Annual Fee?</h3><p>The real math behind annual fees — when to pay them and when a no-fee card wins.</p></div>
+    </a>
+    <a href="how-credit-card-rewards-programs-work.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Sapphire%20Preferred%20Credit%20Card.webp" alt="Credit Card Rewards Guide"></div>
+      <div class="card-body"><div class="article-tag">Educational Guide</div><h3>How Credit Card Rewards Programs Work: The Complete 2026 Guide</h3><p>Cash back vs. transferable points vs. co-brand miles — how to earn, value, and redeem for maximum benefit. Transfer partners explained.</p></div>
+    </a>
+    <a href="credit-card-points-vs-cash-back.html" class="article-card">
+      <div class="card-banner-img"><img src="Citi%20Double%20Cash.jpg" alt="Points vs Cash Back"></div>
+      <div class="card-body"><div class="article-tag">Educational Guide</div><h3>Credit Card Points vs. Cash Back: Which Is Worth More in 2026?</h3><p>An honest, numbers-based comparison. For most people cash back wins — but for travelers, points can deliver 5&times; more value. Find out which is right for you.</p></div>
+    </a>
+    <a href="what-is-the-chase-5-24-rule.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Ink%20Business%20Preferred.jpeg" alt="Chase 5/24 Rule Guide"></div>
+      <div class="card-body"><div class="article-tag">Educational Guide</div><h3>What Is the Chase 5/24 Rule? How It Works and How to Work With It</h3><p>The most important credit card application rule most people have never heard of. What counts, which Chase cards are affected, and how to build your strategy around it.</p></div>
+    </a>
+    <a href="how-to-choose-a-business-credit-card.html" class="article-card">
+      <div class="card-banner-img"><img src="Chase%20Ink%20Business%20Cash.jpeg" alt="Business Credit Card Guide"></div>
+      <div class="card-body"><div class="article-tag">Business Guide</div><h3>How to Choose a Business Credit Card in 2026</h3><p>Who qualifies (anyone with a side hustle), 5 key evaluation factors, card recommendations by spending profile, and common mistakes to avoid.</p></div>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">Credit Card <span>Review</span>.org</a>
+        <p>Independent credit card reviews and comparisons. We help you find the right card for your spending and goals.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Top Reviews</h4>
+        <a href="chase-sapphire-preferred-review-2026.html">Chase Sapphire Preferred</a>
+        <a href="chase-sapphire-reserve-review-2026.html">Chase Sapphire Reserve</a>
+        <a href="amex-gold-card-review-2026.html">Amex Gold Card</a>
+        <a href="amex-platinum-card-review-2026.html">Amex Platinum Card</a>
+        <a href="capital-one-venture-x-review-2026.html">Capital One Venture X</a>
+        <a href="citi-double-cash-review-2026.html">Citi Double Cash</a>
+      </div>
+      <div class="footer-col">
+        <h4>Best Of Lists</h4>
+        <a href="best-travel-credit-cards-2026.html">Best Travel Cards</a>
+        <a href="best-cash-back-credit-cards-2026.html">Best Cash Back Cards</a>
+        <a href="best-rewards-credit-cards-2026.html">Best Rewards Cards</a>
+        <a href="best-sign-up-bonus-credit-cards-2026.html">Best Sign-Up Bonuses</a>
+        <a href="best-no-annual-fee-credit-cards-2026.html">No Annual Fee Cards</a>
+        <a href="best-balance-transfer-credit-cards-2026.html">Balance Transfer Cards</a>
+      </div>
+      <div class="footer-col">
+        <h4>More Categories</h4>
+        <a href="best-hotel-credit-cards-2026.html">Best Hotel Cards</a>
+        <a href="best-airline-credit-cards-2026.html">Best Airline Cards</a>
+        <a href="best-credit-cards-for-groceries-2026.html">Best for Groceries</a>
+        <a href="best-business-credit-cards-2026.html">Best Business Cards</a>
+        <a href="best-credit-cards-for-beginners-2026.html">Best for Beginners</a>
+        <a href="articles.html">All Articles →</a>
+      </div>
+      <div class="footer-col">
+        <h4>Site Info</h4>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="editorial-policy.html">Editorial Policy</a>
+        <a href="disclosure.html">Advertiser Disclosure</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 CreditCardReview.org — Independent credit card reviews. Not a bank or financial advisor.</p>
+      <p>Information accurate as of April 2026. Card terms change frequently — always verify on the issuer's website before applying. We may earn a commission when you apply through our links. See our <a href="disclosure.html">Advertiser Disclosure</a> for details.</p>
+    </div>
+  
+  </div>
+</footer>
+
+</body>
+</html>
