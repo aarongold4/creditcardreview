@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.creditcardreview.org/sitemap.xml
+# Deployed from GitHub (aarongold4/creditcardreview)
