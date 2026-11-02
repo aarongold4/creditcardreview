@@ -37,9 +37,9 @@
       "what-is-the-chase-5-24-rule.html"
     ],
     "priority": "high",
-    "status": "drafted",
+    "status": "published",
     "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/1",
-    "published_url": null
+    "published_url": "https://www.creditcardreview.org/southwest-companion-pass-2027-changes.html"
   },
   {
     "id": "2026-11-02-2",
@@ -65,9 +65,9 @@
       "best-hotel-credit-cards-2026.html"
     ],
     "priority": "high",
-    "status": "proposed",
+    "status": "published",
     "draft_pr": null,
-    "published_url": null
+    "published_url": "https://www.creditcardreview.org/ihg-one-rewards-premier-vs-premier-select.html"
   },
   {
     "id": "2026-11-02-3",
@@ -98,9 +98,9 @@
       "best-travel-credit-cards-2026.html"
     ],
     "priority": "medium",
-    "status": "proposed",
+    "status": "published",
     "draft_pr": null,
-    "published_url": null
+    "published_url": "https://www.creditcardreview.org/chase-sapphire-preferred-vs-sapphire-reserve.html"
   },
   {
     "id": "2026-11-02-4",
@@ -125,9 +125,9 @@
       "best-rewards-credit-cards-2026.html"
     ],
     "priority": "medium",
-    "status": "proposed",
+    "status": "published",
     "draft_pr": null,
-    "published_url": null
+    "published_url": "https://www.creditcardreview.org/bilt-2027-changes.html"
   },
   {
     "id": "2026-11-02-5",
@@ -153,8 +153,8 @@
       "fortiva-credit-card-review-2026.html"
     ],
     "priority": "medium",
-    "status": "proposed",
+    "status": "published",
     "draft_pr": null,
-    "published_url": null
+    "published_url": "https://www.creditcardreview.org/discover-it-secured-review-2026.html"
   }
 ]
