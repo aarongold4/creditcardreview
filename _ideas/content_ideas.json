@@ -37,8 +37,8 @@
       "what-is-the-chase-5-24-rule.html"
     ],
     "priority": "high",
-    "status": "proposed",
-    "draft_pr": null,
+    "status": "drafted",
+    "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/1",
     "published_url": null
   },
   {
