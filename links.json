@@ -1,0 +1,522 @@
+{
+  "_how_to_use": "Each product's \"url\" is where every Apply/Visit button for that product points on the live site. To switch to an affiliate tracking link, replace \"url\" with the tracking link and commit. Keep \"official_url\" as the issuer's own page (the fallback if JavaScript is off). Do not rename the keys: they match data-product=\"...\" on the buttons.",
+  "_networks": "CJ: Chase, Capital One, Citi, Discover. FlexOffers: Amex, Wells Fargo, Bank of America. Others: apply to the issuer's own program if one exists.",
+  "american-eagle-real-rewards-visa": {
+    "name": "American Eagle Real Rewards Visa Card",
+    "issuer": "Synchrony",
+    "affiliate_network": "",
+    "url": "https://www.ae.com/us/en/content/credit",
+    "official_url": "https://www.ae.com/us/en/content/credit"
+  },
+  "amex-blue-business-cash": {
+    "name": "Blue Business Cash Card from American Express",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/en-us/business/credit-cards/blue-business-cash/",
+    "official_url": "https://www.americanexpress.com/en-us/business/credit-cards/blue-business-cash/"
+  },
+  "amex-blue-cash-everyday": {
+    "name": "Blue Cash Everyday Card from American Express",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
+  },
+  "amex-blue-cash-preferred": {
+    "name": "Blue Cash Preferred Card from American Express",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+  },
+  "amex-business-gold": {
+    "name": "American Express Business Gold Card",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/"
+  },
+  "amex-gold": {
+    "name": "American Express Gold Card",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+  },
+  "amex-platinum": {
+    "name": "The Platinum Card from American Express",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+  },
+  "apple-card": {
+    "name": "Apple Card",
+    "issuer": "Goldman Sachs",
+    "affiliate_network": "",
+    "url": "https://www.apple.com/apple-card/",
+    "official_url": "https://www.apple.com/apple-card/"
+  },
+  "bilt": {
+    "name": "Bilt Card",
+    "issuer": "Bilt",
+    "affiliate_network": "",
+    "url": "https://www.bilt.com/card",
+    "official_url": "https://www.bilt.com/card"
+  },
+  "boa-bankamericard": {
+    "name": "BankAmericard Credit Card",
+    "issuer": "Bank of America",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.bankofamerica.com/credit-cards/products/bankamericard-credit-card/",
+    "official_url": "https://www.bankofamerica.com/credit-cards/products/bankamericard-credit-card/"
+  },
+  "boa-customized-cash": {
+    "name": "Bank of America Customized Cash Rewards Credit Card",
+    "issuer": "Bank of America",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+    "official_url": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/"
+  },
+  "boa-premium-rewards": {
+    "name": "Bank of America Premium Rewards Credit Card",
+    "issuer": "Bank of America",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/",
+    "official_url": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/"
+  },
+  "boa-travel-rewards": {
+    "name": "Bank of America Travel Rewards Credit Card",
+    "issuer": "Bank of America",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
+    "official_url": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/"
+  },
+  "boa-unlimited-cash": {
+    "name": "Bank of America Unlimited Cash Rewards Credit Card",
+    "issuer": "Bank of America",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
+    "official_url": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/"
+  },
+  "caesars-rewards-prestige-visa": {
+    "name": "Caesars Rewards Prestige Visa Signature Credit Card",
+    "issuer": "Comenity Bank",
+    "affiliate_network": "",
+    "url": "https://www.caesars.com/myrewards/partners/cr-visa",
+    "official_url": "https://www.caesars.com/myrewards/partners/cr-visa"
+  },
+  "caesars-rewards-visa": {
+    "name": "Caesars Rewards Visa Signature Credit Card",
+    "issuer": "Comenity Bank",
+    "affiliate_network": "",
+    "url": "https://www.caesars.com/myrewards/partners/cr-visa",
+    "official_url": "https://www.caesars.com/myrewards/partners/cr-visa"
+  },
+  "capital-one-quicksilver": {
+    "name": "Capital One Quicksilver Cash Rewards Credit Card",
+    "issuer": "Capital One",
+    "affiliate_network": "CJ",
+    "url": "https://www.capitalone.com/credit-cards/quicksilver/",
+    "official_url": "https://www.capitalone.com/credit-cards/quicksilver/"
+  },
+  "capital-one-quicksilver-secured": {
+    "name": "Capital One Quicksilver Secured Cash Rewards Credit Card",
+    "issuer": "Capital One",
+    "affiliate_network": "CJ",
+    "url": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
+    "official_url": "https://www.capitalone.com/credit-cards/quicksilver-secured/"
+  },
+  "capital-one-savor": {
+    "name": "Capital One Savor Cash Rewards Credit Card",
+    "issuer": "Capital One",
+    "affiliate_network": "CJ",
+    "url": "https://www.capitalone.com/credit-cards/savor/",
+    "official_url": "https://www.capitalone.com/credit-cards/savor/"
+  },
+  "capital-one-savor-student": {
+    "name": "Capital One Savor Student Cash Rewards Credit Card",
+    "issuer": "Capital One",
+    "affiliate_network": "CJ",
+    "url": "https://www.capitalone.com/credit-cards/savor-student/",
+    "official_url": "https://www.capitalone.com/credit-cards/savor-student/"
+  },
+  "capital-one-venture": {
+    "name": "Capital One Venture Rewards Credit Card",
+    "issuer": "Capital One",
+    "affiliate_network": "CJ",
+    "url": "https://www.capitalone.com/credit-cards/venture/",
+    "official_url": "https://www.capitalone.com/credit-cards/venture/"
+  },
+  "capital-one-venture-x": {
+    "name": "Capital One Venture X Rewards Credit Card",
+    "issuer": "Capital One",
+    "affiliate_network": "CJ",
+    "url": "https://www.capitalone.com/credit-cards/venture-x/",
+    "official_url": "https://www.capitalone.com/credit-cards/venture-x/"
+  },
+  "chase-freedom-flex": {
+    "name": "Chase Freedom Flex",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+    "official_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex"
+  },
+  "chase-freedom-rise": {
+    "name": "Chase Freedom Rise",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/rise",
+    "official_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/rise"
+  },
+  "chase-freedom-unlimited": {
+    "name": "Chase Freedom Unlimited",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+    "official_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"
+  },
+  "chase-ink-business-cash": {
+    "name": "Ink Business Cash Credit Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+    "official_url": "https://creditcards.chase.com/business-credit-cards/ink/cash"
+  },
+  "chase-ink-business-preferred": {
+    "name": "Ink Business Preferred Credit Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+    "official_url": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred"
+  },
+  "chase-ink-business-premier": {
+    "name": "Ink Business Premier Credit Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+    "official_url": "https://creditcards.chase.com/business-credit-cards/ink/premier"
+  },
+  "chase-ink-business-unlimited": {
+    "name": "Ink Business Unlimited Credit Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+    "official_url": "https://creditcards.chase.com/business-credit-cards/ink/unlimited"
+  },
+  "chase-sapphire-preferred": {
+    "name": "Chase Sapphire Preferred Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+    "official_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
+  },
+  "chase-sapphire-reserve": {
+    "name": "Chase Sapphire Reserve",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+    "official_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve"
+  },
+  "chase-sapphire-reserve-business": {
+    "name": "Chase Sapphire Reserve for Business",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+    "official_url": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
+  },
+  "chase-slate": {
+    "name": "Chase Slate (page lists it as Chase Slate Edge)",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/balance-transfer-credit-cards/slate",
+    "official_url": "https://creditcards.chase.com/balance-transfer-credit-cards/slate"
+  },
+  "citi-aadvantage-platinum-select": {
+    "name": "Citi / AAdvantage Platinum Select World Elite Mastercard",
+    "issuer": "Citi",
+    "affiliate_network": "CJ",
+    "url": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-world-elite-mastercard",
+    "official_url": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-world-elite-mastercard"
+  },
+  "citi-custom-cash": {
+    "name": "Citi Custom Cash Card",
+    "issuer": "Citi",
+    "affiliate_network": "CJ",
+    "url": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+    "official_url": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card"
+  },
+  "citi-diamond-preferred": {
+    "name": "Citi Diamond Preferred Card",
+    "issuer": "Citi",
+    "affiliate_network": "CJ",
+    "url": "https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card",
+    "official_url": "https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card"
+  },
+  "citi-double-cash": {
+    "name": "Citi Double Cash Card",
+    "issuer": "Citi",
+    "affiliate_network": "CJ",
+    "url": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+    "official_url": "https://www.citi.com/credit-cards/citi-double-cash-credit-card"
+  },
+  "citi-simplicity": {
+    "name": "Citi Simplicity Card",
+    "issuer": "Citi",
+    "affiliate_network": "CJ",
+    "url": "https://www.citi.com/credit-cards/citi-simplicity-credit-card",
+    "official_url": "https://www.citi.com/credit-cards/citi-simplicity-credit-card"
+  },
+  "citi-strata-premier": {
+    "name": "Citi Strata Premier Card",
+    "issuer": "Citi",
+    "affiliate_network": "CJ",
+    "url": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+    "official_url": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
+  },
+  "costco-anywhere-visa": {
+    "name": "Costco Anywhere Visa Card by Citi",
+    "issuer": "Citi",
+    "affiliate_network": "CJ",
+    "url": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+    "official_url": "https://www.citi.com/credit-cards/costco-anywhere-visa-card"
+  },
+  "costco-anywhere-visa-business": {
+    "name": "Costco Anywhere Visa Business Card by Citi",
+    "issuer": "Citi",
+    "affiliate_network": "CJ",
+    "url": "https://www.citi.com/credit-cards/costco-anywhere-visa-business-card",
+    "official_url": "https://www.citi.com/credit-cards/costco-anywhere-visa-business-card"
+  },
+  "delta-skymiles-gold": {
+    "name": "Delta SkyMiles Gold American Express Card",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/"
+  },
+  "delta-skymiles-platinum": {
+    "name": "Delta SkyMiles Platinum American Express Card",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/"
+  },
+  "delta-skymiles-reserve": {
+    "name": "Delta SkyMiles Reserve American Express Card",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/"
+  },
+  "discover-it-balance-transfer": {
+    "name": "Discover it Balance Transfer",
+    "issuer": "Discover",
+    "affiliate_network": "CJ",
+    "url": "https://www.discover.com/credit-cards/balance-transfer-credit-cards/",
+    "official_url": "https://www.discover.com/credit-cards/balance-transfer-credit-cards/"
+  },
+  "discover-it-cash-back": {
+    "name": "Discover it Cash Back",
+    "issuer": "Discover",
+    "affiliate_network": "CJ",
+    "url": "https://www.discover.com/credit-cards/cash-back/it-card/",
+    "official_url": "https://www.discover.com/credit-cards/cash-back/it-card/"
+  },
+  "discover-it-chrome": {
+    "name": "Discover it Chrome Gas & Restaurant",
+    "issuer": "Discover",
+    "affiliate_network": "CJ",
+    "url": "https://www.discover.com/credit-cards/cash-back/chrome/",
+    "official_url": "https://www.discover.com/credit-cards/cash-back/chrome/"
+  },
+  "discover-it-miles": {
+    "name": "Discover it Miles",
+    "issuer": "Discover",
+    "affiliate_network": "CJ",
+    "url": "https://www.discover.com/credit-cards/travel/",
+    "official_url": "https://www.discover.com/credit-cards/travel/"
+  },
+  "discover-it-secured": {
+    "name": "Discover it Secured Cash Back",
+    "issuer": "Discover",
+    "affiliate_network": "CJ",
+    "url": "https://www.discover.com/credit-cards/secured-credit-card/",
+    "official_url": "https://www.discover.com/credit-cards/secured-credit-card/"
+  },
+  "discover-it-student-cash-back": {
+    "name": "Discover it Student Cash Back",
+    "issuer": "Discover",
+    "affiliate_network": "CJ",
+    "url": "https://www.discover.com/credit-cards/student-credit-card/it-card/",
+    "official_url": "https://www.discover.com/credit-cards/student-credit-card/it-card/"
+  },
+  "discover-it-student-chrome": {
+    "name": "Discover it Student Chrome",
+    "issuer": "Discover",
+    "affiliate_network": "CJ",
+    "url": "https://www.discover.com/credit-cards/student-credit-card/chrome-card/",
+    "official_url": "https://www.discover.com/credit-cards/student-credit-card/chrome-card/"
+  },
+  "ebay-mastercard": {
+    "name": "eBay Mastercard (program ended Mar 24, 2026; no new applications)",
+    "issuer": "Synchrony",
+    "affiliate_network": "",
+    "url": "https://pages.ebay.com/creditcard/creditcards-faqs.html",
+    "official_url": "https://pages.ebay.com/creditcard/creditcards-faqs.html"
+  },
+  "fidelity-rewards-visa": {
+    "name": "Fidelity Rewards Visa Signature Card",
+    "issuer": "Elan Financial Services",
+    "affiliate_network": "",
+    "url": "https://www.fidelity.com/spend-save/visa-signature-card",
+    "official_url": "https://www.fidelity.com/spend-save/visa-signature-card"
+  },
+  "fortiva-cash-back": {
+    "name": "Fortiva Cash Back Rewards Mastercard",
+    "issuer": "The Bank of Missouri",
+    "affiliate_network": "",
+    "url": "https://www.fortivacreditcard.com/",
+    "official_url": "https://www.fortivacreditcard.com/"
+  },
+  "gap-encore-mastercard": {
+    "name": "Gap Encore Mastercard",
+    "issuer": "Barclays",
+    "affiliate_network": "",
+    "url": "https://www.gap.com/encore",
+    "official_url": "https://www.gap.com/encore"
+  },
+  "harley-davidson-visa": {
+    "name": "Harley-Davidson Visa Signature Card",
+    "issuer": "U.S. Bank",
+    "affiliate_network": "",
+    "url": "https://www.h-dvisa.com/",
+    "official_url": "https://www.h-dvisa.com/"
+  },
+  "hilton-honors-aspire": {
+    "name": "Hilton Honors American Express Aspire Card",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/"
+  },
+  "hilton-honors-surpass": {
+    "name": "Hilton Honors American Express Surpass Card",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
+  },
+  "ihg-one-rewards-premier": {
+    "name": "IHG One Rewards Premier Credit Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+    "official_url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier"
+  },
+  "luxury-card": {
+    "name": "Luxury Card (Titanium, Black, Gold)",
+    "issuer": "Barclays",
+    "affiliate_network": "",
+    "url": "https://www.luxurycard.com/",
+    "official_url": "https://www.luxurycard.com/"
+  },
+  "macys-credit-card": {
+    "name": "Macy's Credit Card",
+    "issuer": "Citibank",
+    "affiliate_network": "",
+    "url": "https://www.macys.com/p/credit-service/learn-and-apply/",
+    "official_url": "https://www.macys.com/p/credit-service/learn-and-apply/"
+  },
+  "marriott-bonvoy-boundless": {
+    "name": "Marriott Bonvoy Boundless Credit Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+    "official_url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless"
+  },
+  "marriott-bonvoy-brilliant": {
+    "name": "Marriott Bonvoy Brilliant American Express Card",
+    "issuer": "American Express",
+    "affiliate_network": "FlexOffers",
+    "url": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+    "official_url": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
+  },
+  "mgm-rewards-iconic": {
+    "name": "MGM Rewards Iconic World Elite Mastercard",
+    "issuer": "FNBO",
+    "affiliate_network": "",
+    "url": "https://www.card.fnbo.com/mgmrewards",
+    "official_url": "https://www.card.fnbo.com/mgmrewards"
+  },
+  "mgm-rewards-world-elite": {
+    "name": "MGM Rewards World Elite Mastercard",
+    "issuer": "FNBO",
+    "affiliate_network": "",
+    "url": "https://www.card.fnbo.com/mgmrewards",
+    "official_url": "https://www.card.fnbo.com/mgmrewards"
+  },
+  "nhl-discover-it": {
+    "name": "NHL Discover it Credit Card",
+    "issuer": "Discover",
+    "affiliate_network": "CJ",
+    "url": "https://www.discover.com/credit-cards/cash-back/nhl-card/",
+    "official_url": "https://www.discover.com/credit-cards/cash-back/nhl-card/"
+  },
+  "paypal-cashback-mastercard": {
+    "name": "PayPal Cashback Mastercard",
+    "issuer": "Synchrony",
+    "affiliate_network": "",
+    "url": "https://www.paypal.com/cashback",
+    "official_url": "https://www.paypal.com/cashback"
+  },
+  "sams-club-mastercard": {
+    "name": "Sam's Club Mastercard",
+    "issuer": "Synchrony",
+    "affiliate_network": "",
+    "url": "https://www.samsclub.com/credit",
+    "official_url": "https://www.samsclub.com/credit"
+  },
+  "southwest-priority": {
+    "name": "Southwest Rapid Rewards Priority Credit Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+    "official_url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority"
+  },
+  "united-explorer": {
+    "name": "United Explorer Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+    "official_url": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer"
+  },
+  "wells-fargo-active-cash": {
+    "name": "Wells Fargo Active Cash Card",
+    "issuer": "Wells Fargo",
+    "affiliate_network": "FlexOffers",
+    "url": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+    "official_url": "https://creditcards.wellsfargo.com/active-cash-credit-card/"
+  },
+  "wells-fargo-autograph": {
+    "name": "Wells Fargo Autograph Card",
+    "issuer": "Wells Fargo",
+    "affiliate_network": "FlexOffers",
+    "url": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+    "official_url": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
+  },
+  "wells-fargo-reflect": {
+    "name": "Wells Fargo Reflect Card",
+    "issuer": "Wells Fargo",
+    "affiliate_network": "FlexOffers",
+    "url": "https://creditcards.wellsfargo.com/reflect-visa-credit-card/",
+    "official_url": "https://creditcards.wellsfargo.com/reflect-visa-credit-card/"
+  },
+  "world-of-hyatt": {
+    "name": "World of Hyatt Credit Card",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
+    "official_url": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card"
+  }
+}
