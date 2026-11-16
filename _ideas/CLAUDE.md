@@ -8,3 +8,9 @@ Standing rule from Aaron (applies to every session, scheduled or not):
 
 Never invent a number; never publish anything unverified; do not change design, CSS, URLs or images.
 No build step: the HTML files are the site. Deploy: push to main (Hostinger publishes main). QA script is in the weekly audit task.
+
+Site-wide rules added Nov 16, 2026 (every new or rebuilt page must follow them):
+- Apply/Open account/Visit site buttons: href = the product's "official_url" from /links.json, plus data-product="<key>" target="_blank" rel="sponsored nofollow noopener", and <script src="links.js" defer></script> before </body>. Add a new key to links.json for any new product. Never use href="#".
+- <head> must contain the AdSense loader: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4897434778726769" crossorigin="anonymous"></script> (no manual ad units), and a self-referencing canonical on https://www.creditcardreview.org/.
+- Reviews, comparisons and roundups: the one-line div.ccr-adv-disclosure bar directly after </header> (copy it from any review).
+- Footer must link privacy-policy.html and disclosure.html.
