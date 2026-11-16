@@ -401,8 +401,8 @@
       "best-business-credit-cards-2026.html"
     ],
     "priority": "high",
-    "status": "proposed",
-    "draft_pr": null,
+    "status": "drafted",
+    "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/4",
     "published_url": null
   },
   {
@@ -430,8 +430,8 @@
       "marriott-bonvoy-boundless-review-2026.html"
     ],
     "priority": "medium",
-    "status": "proposed",
-    "draft_pr": null,
+    "status": "drafted",
+    "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/5",
     "published_url": null
   },
   {
@@ -467,8 +467,8 @@
       "capital-one-quicksilver-review-2026.html"
     ],
     "priority": "medium",
-    "status": "proposed",
-    "draft_pr": null,
+    "status": "drafted",
+    "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/6",
     "published_url": null
   }
 ]
