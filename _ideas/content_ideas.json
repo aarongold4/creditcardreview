@@ -325,5 +325,150 @@
     "status": "proposed",
     "draft_pr": null,
     "published_url": null
+  },
+  {
+    "id": "2026-11-16-1",
+    "date": "2026-11-16",
+    "title": "Best Flat-Rate Cash Back Credit Cards of 2026: Every 2% (and 1.5%) Card Compared",
+    "filename": "best-flat-rate-cash-back-credit-cards-2026.html",
+    "search_phrase": "best 2% cash back credit card",
+    "why_now": "Two flat-rate cards changed in the last few weeks: Citi cut the Double Cash bonus spend to $500 in 3 months (citi.com, seen Nov 16, 2026) and Bank of America ended the Unlimited Cash Rewards' first-year 2% offer (now 1.5% plus a $250 bonus). The existing best-cash-back roundup mixes category cards with flat-rate cards.",
+    "angle": "A flat-rate-only roundup using the site's verified terms: Active Cash vs. Double Cash (now same $500 bonus threshold), Fidelity 2%, BofA Unlimited with BofA Rewards boosts up to 2.625%, PayPal 3%/1.5%, Quicksilver 1.5%. Clear \"which one\" picks by situation.",
+    "facts": [
+      {
+        "fact": "Citi Double Cash: $200 after $500 in purchases in first 3 months; 2% (1%+1%); 0% BT 18 months; 3% FTF",
+        "source": "https://www.citi.com/credit-cards/citi-double-cash-credit-card"
+      },
+      {
+        "fact": "Wells Fargo Active Cash: $100 after $500 in 3 months; 2%; 0% 12 months purchases and BTs; cell phone protection $600",
+        "source": "https://creditcards.wellsfargo.com/active-cash-credit-card/"
+      },
+      {
+        "fact": "BofA Unlimited Cash Rewards: 1.5% on everything; $250 after $1,000 in 90 days; first-year 2% ended",
+        "source": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/"
+      },
+      {
+        "fact": "Fidelity Rewards Visa: 2% when deposited into an eligible Fidelity account; $0 fee; no FTF; 1-point redemption minimum",
+        "source": "https://fidelityrewards.com/"
+      },
+      {
+        "fact": "Capital One Quicksilver: 1.5%; $200 after $500; 0% for 15 months; no FTF",
+        "source": "https://www.capitalone.com/credit-cards/quicksilver/"
+      }
+    ],
+    "links": [
+      "best-cash-back-credit-cards-2026.html",
+      "citi-double-cash-vs-wells-fargo-active-cash.html",
+      "citi-double-cash-review-2026.html",
+      "wells-fargo-active-cash-review-2026.html",
+      "boa-unlimited-cash-rewards-review-2026.html",
+      "fidelity-rewards-visa-review-2026.html",
+      "paypal-cashback-mastercard-review-2026.html",
+      "capital-one-quicksilver-review-2026.html"
+    ],
+    "priority": "high",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-11-16-2",
+    "date": "2026-11-16",
+    "title": "Amex Platinum 2027 Changes: The New Hotel Credit Rules (and What to Do Before Jan. 1)",
+    "filename": "amex-platinum-2027-changes.html",
+    "search_phrase": "amex platinum changes 2027",
+    "why_now": "Amex's own Platinum page now says Fine Hotels + Resorts bookings need a 2-night minimum to earn the $600 hotel credit from Jan 1, 2027; trade press (TravelUpdate, Oct 22/26) reports an Airbnb Luxe and Airbnb Experiences expansion. Business Platinum/Gold category narrowing takes effect Feb 17, 2027 (issuer pages). Fits the site's successful \"2027 changes\" format (Bilt, Southwest).",
+    "angle": "What changes, what stays, and a booking checklist before Jan 1, using the site's verified Platinum terms ($895 fee, $600 hotel credit, $400 Resy, etc.).",
+    "facts": [
+      {
+        "fact": "From Jan 1, 2027 FHR bookings need a 2-night minimum to count toward the $600 hotel credit",
+        "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+      },
+      {
+        "fact": "Airbnb Luxe eligibility and up to $250/yr Airbnb Experiences credit from Jan 1, 2027 (single source family; verify before publishing)",
+        "source": "TravelUpdate 2026-10-22 / 2026-10-26"
+      },
+      {
+        "fact": "Feb 17, 2027: Business Platinum 2X shipping and Wireless Credit, Business Gold 4x advertising/wireless limited to select merchants",
+        "source": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
+      }
+    ],
+    "links": [
+      "amex-platinum-card-review-2026.html",
+      "chase-sapphire-reserve-vs-amex-platinum.html",
+      "amex-platinum-vs-capital-one-venture-x.html",
+      "best-travel-credit-cards-2026.html",
+      "best-business-credit-cards-2026.html"
+    ],
+    "priority": "high",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-11-16-3",
+    "date": "2026-11-16",
+    "title": "World of Hyatt Credit Card Review 2026: Is the 4-Free-Night Offer Worth $5,000 of Spend?",
+    "filename": "world-of-hyatt-credit-card-review-2026.html",
+    "search_phrase": "world of hyatt credit card review",
+    "why_now": "Chase replaced the up-to-60,000-point offer with 4 free nights at Category 1–4 hotels after $5,000 in 3 months around Nov 5, 2026 (issuer page; Frequent Miler 11/5; NerdWallet 11/9). The site ranks the card in best-hotel but has no review.",
+    "angle": "Value the 4 certificates vs. the old 60K offer, plus Hyatt's 4:3 Chase transfer ratio (site-verified) as the reason the cobrand card matters more now.",
+    "facts": [
+      {
+        "fact": "4 free nights (Cat 1–4) after $5,000 in 3 months; certificates valid 12 months; $95 fee; 4x/2x/1x; Cat 1–4 anniversary night; Discoverist",
+        "source": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card"
+      },
+      {
+        "fact": "Chase Ultimate Rewards transfers to Hyatt at 4:3 (Sapphire Preferred from June 15, 2026; Ink Preferred from Oct 1, 2026)",
+        "source": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred"
+      }
+    ],
+    "links": [
+      "best-hotel-credit-cards-2026.html",
+      "chase-sapphire-preferred-review-2026.html",
+      "ihg-one-rewards-premier-vs-marriott-bonvoy-boundless.html",
+      "marriott-bonvoy-boundless-review-2026.html"
+    ],
+    "priority": "medium",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
+  },
+  {
+    "id": "2026-11-16-4",
+    "date": "2026-11-16",
+    "title": "Discover Cards Under Capital One: What Changes for Cardholders in 2026–2027",
+    "filename": "discover-capital-one-transition-guide.html",
+    "search_phrase": "discover capital one what changes",
+    "why_now": "Discover accounts began moving to Capital One servicing on July 27, 2026, student accounts moved Oct 19, 2026, Capital One relaunched the Secured Cash Back on Oct 5, and the Chrome disclosure says some terms change in January 2027.",
+    "angle": "One guide covering all seven Discover cards the site reviews: network stays Discover, numbers/APRs/rewards carry over, migrated accounts gain 5% on Capital One Travel; link each review.",
+    "facts": [
+      {
+        "fact": "Migration began 7/27/26 in waves through 2027; cards stay on Discover network; migrated accounts get 5% on Capital One Travel hotels/rentals and Capital One Entertainment",
+        "source": "TPG 2026-07-27 (mod 2026-09-15); Doctor of Credit"
+      },
+      {
+        "fact": "Student accounts moved to Capital One servicing 10/19/26",
+        "source": "Doctor of Credit"
+      },
+      {
+        "fact": "Discover it Secured Cash Back relaunched Oct 5, 2026 ($49/$99/$200 deposits)",
+        "source": "https://www.discover.com/credit-cards/secured/"
+      }
+    ],
+    "links": [
+      "discover-it-cash-back-review-2026.html",
+      "discover-it-chrome-review-2026.html",
+      "discover-it-miles-review-2026.html",
+      "discover-it-secured-review-2026.html",
+      "discover-it-student-cash-back-review-2026.html",
+      "discover-it-student-chrome-review-2026.html",
+      "nhl-discover-it-review-2026.html",
+      "capital-one-quicksilver-review-2026.html"
+    ],
+    "priority": "medium",
+    "status": "proposed",
+    "draft_pr": null,
+    "published_url": null
   }
 ]
