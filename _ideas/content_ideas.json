@@ -367,8 +367,8 @@
       "capital-one-quicksilver-review-2026.html"
     ],
     "priority": "high",
-    "status": "proposed",
-    "draft_pr": null,
+    "status": "drafted",
+    "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/3",
     "published_url": null
   },
   {
