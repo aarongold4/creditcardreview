@@ -1,0 +1,4 @@
+# Send the bare domain to the canonical www host so Google sees one copy of each page.
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^creditcardreview\.org$ [NC]
+RewriteRule ^(.*)$ https://www.creditcardreview.org/$1 [L,R=301]
