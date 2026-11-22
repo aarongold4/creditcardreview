@@ -414,6 +414,13 @@
     "url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
     "official_url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier"
   },
+  "kroger-rewards-mastercard": {
+    "name": "Kroger Rewards World Elite Mastercard",
+    "issuer": "First Bank & Trust (Imprint)",
+    "affiliate_network": "",
+    "url": "https://www.kroger.com/credit-card/apply",
+    "official_url": "https://www.kroger.com/credit-card/apply"
+  },
   "luxury-card": {
     "name": "Luxury Card (Titanium, Black, Gold)",
     "issuer": "Barclays",
