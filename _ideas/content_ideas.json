@@ -332,11 +332,11 @@
     "title": "Best Flat-Rate Cash Back Credit Cards of 2026: Every 2% (and 1.5%) Card Compared",
     "filename": "best-flat-rate-cash-back-credit-cards-2026.html",
     "search_phrase": "best 2% cash back credit card",
-    "why_now": "Two flat-rate cards changed in the last few weeks: Citi cut the Double Cash bonus spend to $500 in 3 months (citi.com, seen Nov 16, 2026) and Bank of America ended the Unlimited Cash Rewards' first-year 2% offer (now 1.5% plus a $250 bonus). The existing best-cash-back roundup mixes category cards with flat-rate cards.",
+    "why_now": "Bank of America ended the Unlimited Cash Rewards' first-year 2% offer (now 1.5% plus a $250 bonus). The existing best-cash-back roundup mixes category cards with flat-rate cards.",
     "angle": "A flat-rate-only roundup using the site's verified terms: Active Cash vs. Double Cash (now same $500 bonus threshold), Fidelity 2%, BofA Unlimited with BofA Rewards boosts up to 2.625%, PayPal 3%/1.5%, Quicksilver 1.5%. Clear \"which one\" picks by situation.",
     "facts": [
       {
-        "fact": "Citi Double Cash: $200 after $500 in purchases in first 3 months; 2% (1%+1%); 0% BT 18 months; 3% FTF",
+        "fact": "Citi Double Cash: $200 after $1,500 in purchases in first 6 months (citi.com, re-verified Nov 22, 2026); 2% (1%+1%); 0% BT 18 months",
         "source": "https://www.citi.com/credit-cards/citi-double-cash-credit-card"
       },
       {
@@ -367,9 +367,9 @@
       "capital-one-quicksilver-review-2026.html"
     ],
     "priority": "high",
-    "status": "drafted",
+    "status": "published",
     "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/3",
-    "published_url": null
+    "published_url": "https://www.creditcardreview.org/best-flat-rate-cash-back-credit-cards-2026.html"
   },
   {
     "id": "2026-11-16-2",
@@ -401,9 +401,9 @@
       "best-business-credit-cards-2026.html"
     ],
     "priority": "high",
-    "status": "drafted",
+    "status": "published",
     "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/4",
-    "published_url": null
+    "published_url": "https://www.creditcardreview.org/amex-platinum-2027-changes.html"
   },
   {
     "id": "2026-11-16-3",
@@ -430,9 +430,9 @@
       "marriott-bonvoy-boundless-review-2026.html"
     ],
     "priority": "medium",
-    "status": "drafted",
+    "status": "published",
     "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/5",
-    "published_url": null
+    "published_url": "https://www.creditcardreview.org/world-of-hyatt-credit-card-review-2026.html"
   },
   {
     "id": "2026-11-16-4",
@@ -467,8 +467,8 @@
       "capital-one-quicksilver-review-2026.html"
     ],
     "priority": "medium",
-    "status": "drafted",
+    "status": "published",
     "draft_pr": "https://github.com/aarongold4/creditcardreview/pull/6",
-    "published_url": null
+    "published_url": "https://www.creditcardreview.org/discover-capital-one-transition-guide.html"
   }
 ]
