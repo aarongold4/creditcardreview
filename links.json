@@ -155,6 +155,13 @@
     "url": "https://www.capitalone.com/credit-cards/venture-x/",
     "official_url": "https://www.capitalone.com/credit-cards/venture-x/"
   },
+  "chase-amazon-prime-visa": {
+    "name": "Amazon Prime Visa",
+    "issuer": "Chase",
+    "affiliate_network": "CJ",
+    "url": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+    "official_url": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards"
+  },
   "chase-freedom-flex": {
     "name": "Chase Freedom Flex",
     "issuer": "Chase",
